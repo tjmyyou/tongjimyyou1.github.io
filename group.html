@@ -1,51 +1,280 @@
-
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
   "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+
 <head>
-<meta name="generator" content="jemdoc, see http://jemdoc.jaboc.net/" />
-<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
-<link rel="stylesheet" href="jemdoc.css" type="text/css" />
-<link rel="stylesheet" href="tju.css" type="text/css" />
-<title>Mingyu You's Homepage</title>
+    <meta name="generator" content="jemdoc, see http://jemdoc.jaboc.net/" />
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+    <link rel="stylesheet" href="jemdoc.css" type="text/css" />
+    <link rel="stylesheet" href="tju.css" type="text/css" />
+    <title>Mingyu You's Homepage</title>
+    <style>
+        .student-item {
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 10px;
+            margin: 10px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+            width: 200px;
+            height: 270px;
+            /* 设置固定高度 */
+            display: inline-block;
+            vertical-align: top;
+            /* 保证多行对齐 */
+            text-align: center;
+            /* 居中对齐内容 */
+        }
+        
+        .student-avatar {
+            width: 80px;
+            height: 106.67px;
+            margin: 0 auto;
+        }
+        
+        .student-name {
+            font-size: 18px;
+            margin: 10px 0;
+        }
+        
+        .student-degree {
+            font-size: 16px;
+            color: #333;
+            margin-bottom: 5px;
+        }
+        
+        .student-research {
+            font-size: 14px;
+            color: #666;
+            margin-top: 10px;
+        }
+    </style>
 </head>
+
 <body>
-<script>
-var _hmt = _hmt || [];
-(function() {
-  var hm = document.createElement("script");
-  hm.src = "https://hm.baidu.com/hm.js?f85ae40b6d54f8f7becb3b0be41d4515";
-  var s = document.getElementsByTagName("script")[0];
-  s.parentNode.insertBefore(hm, s);
-})();
-</script>
+    <script>
+        var _hmt = _hmt || [];
+        (function() {
+            var hm = document.createElement("script");
+            hm.src = "https://hm.baidu.com/hm.js?f85ae40b6d54f8f7becb3b0be41d4515";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
 
-<table summary="Table for page layout." id="tlayout">
-<tr valign="top">
-<td id="layout-menu">
-<div class="image-container">
-    <img src="./projects/Tongji_University_Emblem.svg.png" width="96px" height="96px" alt="TJU">
-</div>
-<div class="menu-item"><a href="index.html">Homepage</a></div>
-<div class="menu-item"><a href="pub.html">Publications</a></div>
-<div class="menu-item"><a href="group.html" class="current">Members</a></div>
-<div class="menu-item"><a href="service.html">Services</a></div>
-<div class="menu-item"><a href="award.html">Awards</a></div>
-<!-- <div class="menu-item"><a href="join.html">Join&nbsp;us</a></div> -->
-</td>
+    <table summary="Table for page layout." id="tlayout">
+        <tr valign="top">
+            <td id="layout-menu">
+                <div class="image-container">
+                    <img src="./projects/Tongji_University_Emblem.svg.png" width="96px" height="96px" alt="TJU">
+                </div>
+                <div class="menu-item"><a href="index.html">Homepage</a></div>
+                <div class="menu-item"><a href="pub.html">Publications</a></div>
+                <div class="menu-item"><a href="group.html" class="current">Students</a></div>
+                <div class="menu-item"><a href="service.html">Services</a></div>
+                <div class="menu-item"><a href="award.html">Awards</a></div>
+                <!-- <div class="menu-item"><a href="join.html">Join&nbsp;us</a></div> -->
+            </td>
 
-<td id="layout-content">
-<div id="toptitle">
-<h1>CEIE@TJU & SRIAS</h1>
-</div>
-<h2>Students</h2>
-<ul>
-<li><p>Xuan Han (PhD@TJU)
-<li><p>Weihao Wang (PhD@TJU)
-</p>
-
-</td>
-</tr>
-</table>
+            <td id="layout-content">
+                <div id="toptitle">
+                    <h1>CEIE@TJU & SRIAS</h1>
+                </div>
+                <h2>Students</h2>
+                <ul>
+                    <li class="student-item">
+                        <div class="student-avatar">
+                            <!-- 这里添加 img 标签，src 属性设置为 jpg 文件路径，假设文件名为 avatar2.jpg -->
+                            <!-- <img src="./projects/wwh.jpg" width="80px" height="106.67px" alt=""> -->
+                        </div>
+                        <div class="student-name">王伟昊</div>
+                        <div class="student-degree">2019级 博士</div>
+                        <div class="student-research">
+                            <p>研究方向：图像辅助的三维装配</p>
+                            <p>邮箱：wwhtju@tongji.edu.cn</p>
+                            <a href="wwh.html">更多信息</a>
+                        </div>
+                    </li>
+					<li class="student-item">
+                        <div class="student-avatar">
+                            <!-- 这里添加 img 标签，src 属性设置为 jpg 文件路径，假设文件名为 avatar1.jpg -->
+                            <!-- <img src="./projects/hx.jpg" width="80px" height="106.67px" alt=""> -->
+                        </div>
+                        <div class="student-name">韩煊</div>
+                        <div class="student-degree">2021级 博士</div>
+                        <div class="student-research">
+                            <p>研究方向：2D图像可控生成</p>
+                            <p>邮箱：hanxuan@tongji.edu.cn</p>
+							<a href="hx.html">更多信息</a>
+                        </div>
+                    </li>
+					<li class="student-item">
+					    <div class="student-avatar">
+					        <!-- 这里添加 img 标签，src 属性设置为 jpg 文件路径，假设文件名为 avatar1.jpg -->
+					        <img src="./projects/fh.jpg" width="80px" height="106.67px" alt="">
+					    </div>
+					    <div class="student-name">付豪</div>
+					    <div class="student-degree">2021级 博士</div>
+					    <div class="student-research">
+					        <p>研究方向：多智能体系统，POMDP，多智能体强化学习</p>
+					        <p>邮箱：2111483@tongji.edu.cn</p>
+					        <a href=""></a>
+					    </div>
+					</li>
+					<li class="student-item">
+					    <div class="student-avatar">
+					        <!-- 这里添加 img 标签，src 属性设置为 jpg 文件路径，假设文件名为 avatar1.jpg -->
+					        <!-- <img src="./projects/rby.jpg" width="80px" height="106.67px" alt=""> -->
+					    </div>
+					    <div class="student-name">任柏宇</div>
+					    <div class="student-degree">2022级 硕士</div>
+					    <div class="student-research">
+					        <p>研究方向：神经网络加速器</p>
+					        <p>邮箱：renby@tongji.edu.cn</p>
+					        <a href=""></a>
+					    </div>
+					</li>
+					<li class="student-item">
+					    <div class="student-avatar">
+					        <!-- 这里添加 img 标签，src 属性设置为 jpg 文件路径，假设文件名为 avatar1.jpg -->
+					        <img src="./projects/yqh.jpg" width="80px" height="106.67px" alt="">
+					    </div>
+					    <div class="student-name">姚启皓</div>
+					    <div class="student-degree">2022级 硕士</div>
+					    <div class="student-research">
+					        <p>研究方向：三维装配，三维生成</p>
+					        <p>邮箱：</p>
+					        <a href=""></a>
+					    </div>
+					</li>
+					<li class="student-item">
+					    <div class="student-avatar">
+					        <!-- 这里添加 img 标签，src 属性设置为 jpg 文件路径，假设文件名为 avatar1.jpg -->
+					        <img src="./projects/xjz.jpg" width="80px" height="106.67px" alt="">
+					    </div>
+					    <div class="student-name">薛金喆</div>
+					    <div class="student-degree">2022级 硕士</div>
+					    <div class="student-research">
+					        <p>研究方向：6D物体位姿估计、虚实融合</p>
+					        <p>邮箱：ginger202212@163.com</p>
+					        <a href="xjz.html">更多信息</a>
+					    </div>
+					</li>
+                    <li class="student-item">
+                        <div class="student-avatar">
+                            <!-- 这里添加 img 标签，src 属性设置为 jpg 文件路径，假设文件名为 avatar1.jpg -->
+                            <img src="./projects/zyh.jpg" width="80px" height="106.67px" alt="">
+                        </div>
+                        <div class="student-name">赵一昊</div>
+                        <div class="student-degree">2023级 硕士</div>
+                        <div class="student-research">
+                            <p>研究方向：2D图像可控生成</p>
+                            <p>邮箱：zhaoyihao@tongji.edu.cn</p>
+                            <a href=""></a>
+                        </div>
+                    </li>
+					<li class="student-item">
+                        <div class="student-avatar">
+                            <!-- 这里添加 img 标签，src 属性设置为 jpg 文件路径，假设文件名为 avatar2.jpg -->
+                            <img src="./projects/zhz.jpg" width="80px" height="106.67px" alt="">
+                        </div>
+                        <div class="student-name">朱华泽</div>
+                        <div class="student-degree">2023级 硕士</div>
+                        <div class="student-research">
+                            <p>研究方向：图像辅助的三维装配</p>
+                            <p>邮箱：</p>
+                        </div>
+                    </li>
+					<li class="student-item">
+					    <div class="student-avatar">
+					        <!-- 这里添加 img 标签，src 属性设置为 jpg 文件路径，假设文件名为 avatar2.jpg -->
+					        <!-- <img src="./projects/gyh.jpg" width="80px" height="106.67px" alt=""> -->
+					    </div>
+					    <div class="student-name">葛彦昊</div>
+					    <div class="student-degree">2024级 博士</div>
+					    <div class="student-research">
+					        <p>研究方向：多模态大模型、视觉生成</p>
+					        <p>邮箱：gyhale@gmail.com</p>
+					    </div>
+					</li>
+                    <li class="student-item">
+                        <div class="student-avatar">
+                            <!-- 这里添加 img 标签，src 属性设置为 jpg 文件路径，假设文件名为 avatar2.jpg -->
+                            <img src="./projects/wcl.jpg" width="80px" height="106.67px" alt="">
+                        </div>
+                        <div class="student-name">吴程亮</div>
+                        <div class="student-degree">2024级 博士</div>
+                        <div class="student-research">
+                            <p>研究方向：具身智能，机器人家具装配</p>
+                            <p>邮箱：chengliangwu2001@gmail.com</p>
+							<a href="wcl.html">更多信息</a>
+                        </div>
+                    </li>
+					
+                    <li class="student-item">
+                        <div class="student-avatar">
+                            <!-- 这里添加 img 标签，src 属性设置为 jpg 文件路径，假设文件名为 avatar2.jpg -->
+                            <img src="./projects/ly.jpg" width="80px" height="106.67px" alt="">
+                        </div>
+                        <div class="student-name">兰宇</div>
+                        <div class="student-degree">2024级 博士</div>
+                        <div class="student-research">
+                            <p>研究方向：基于机械臂的可变形物体抓取与操作</p>
+                            <p>邮箱：2411893@tongji.edu.cn</p>
+							<a href="ly.html">更多信息</a>
+                        </div>
+                    </li>
+                    <li class="student-item">
+                        <div class="student-avatar">
+                            <!-- 这里添加 img 标签，src 属性设置为 jpg 文件路径，假设文件名为 avatar2.jpg -->
+                            <img src="./projects/wzy.jpg" width="80px" height="106.67px" alt="">
+                        </div>
+                        <div class="student-name">邬致远</div>
+                        <div class="student-degree">2024级 硕士</div>
+                        <div class="student-research">
+                            <p>研究方向：具身智能，家具装配</p>
+                            <p>邮箱：2431949@tongji.edu.cn</p>
+                        </div>
+                    </li>
+					<li class="student-item">
+					    <div class="student-avatar">
+					        <!-- 这里添加 img 标签，src 属性设置为 jpg 文件路径，假设文件名为 avatar2.jpg -->
+					        <img src="./projects/xyw.jpg" width="80px" height="106.67px" alt="">
+					    </div>
+					    <div class="student-name">肖雨微</div>
+					    <div class="student-degree">2024级 硕士</div>
+					    <div class="student-research">
+					        <p>研究方向：2D图像可控生成,具身智能</p>
+					        <p>邮箱：2431950@tongji.edu.cn</p>
+					    </div>
+					</li>
+					<li class="student-item">
+					    <div class="student-avatar">
+					        <!-- 这里添加 img 标签，src 属性设置为 jpg 文件路径，假设文件名为 avatar2.jpg -->
+					        <img src="./projects/cyy.jpg" width="80px" height="106.67px" alt="">
+					    </div>
+					    <div class="student-name">陈昀昀</div>
+					    <div class="student-degree">2024级 硕士</div>
+					    <div class="student-research">
+					        <p>研究方向：支撑产品设计/制造/服务一体化的数智化</p>
+					        <p>邮箱：2432145@tongji.edu.cn</p>
+					    </div>
+					</li>
+					<li class="student-item">
+					    <div class="student-avatar">
+					        <!-- 这里添加 img 标签，src 属性设置为 jpg 文件路径，假设文件名为 avatar2.jpg -->
+					        <img src="./projects/jh.jpg" width="80px" height="106.67px" alt="">
+					    </div>
+					    <div class="student-name">金昊</div>
+					    <div class="student-degree">2025级 硕士</div>
+					    <div class="student-research">
+					        <p>研究方向：具身智能，可变形体的抓取与操作</p>
+					        <p>邮箱：1561792522@qq.com</p>
+					    </div>
+					</li>
+                </ul>
+            </td>
+        </tr>
+    </table>
 </body>
+
 </html>
