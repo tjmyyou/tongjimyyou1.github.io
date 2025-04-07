@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="tju.css" type="text/css" />
     <title>Selected Publications</title>
 </head>
+
 <body>
     <script>
         var _hmt = _hmt || [];
@@ -26,7 +27,7 @@
                 </div>
                 <div class="menu-item"><a href="index.html">Homepage</a></div>
                 <div class="menu-item"><a href="pub.html" class="current">Publications</a></div>
-                <div class="menu-item"><a href="group.html">Members</a></div>
+                <div class="menu-item"><a href="group.html">Students</a></div>
                 <div class="menu-item"><a href="service.html">Services</a></div>
                 <div class="menu-item"><a href="award.html">Awards</a></div>
             </td>
@@ -36,956 +37,1085 @@
                 </div>
                 <p style="text-align:justify"><strong><font size="4px">Publications</font></strong> (* equal contribution, <b><span style="font-family:Wingdings">*</span></b> corresponding author. All publications on [<a href="https://scholar.google.com/citations?user=cZ-SxbkAAAAJ&hl=zh-CN"
                         target=&ldquo;blank&rdquo;>Google Scholar</a>])
-        <table id="pubList" border="0" cellpadding="0" width="100%" style="border-spacing: 10 18px; line-height:16pt; border: 0px;">
-        <!-- 01 -->
-		<tr>
-            <td style="padding:10px;width:100%;vertical-align:top;text-align:justify;">
-				<a href="https://ieeexplore.ieee.org/abstract/document/10752365">
-					<papertitle><b>Closely Cooperative Multi-Agent Reinforcement Learning Based on Intention Sharing and Credit Assignment</b></papertitle>
-				</a>
-				<br> Hao Fu, <b>Mingyu You*</b>, Hongjun Zhou, Bin He
-				<br>
-				<em>IEEE Robotics and Automation Letters</em>, 2024
-				<br>
-				<a href="https://ieeexplore.ieee.org/abstract/document/10752365">paper</a>/<a href="videos/01_fh.mp4">video</a>
-				<br>
-				<b>Abstract </b>In this paper, we propose a closely collaborative multi-agent reinforcement learning(CC-MARL) algorithm based on intention sharing and credit assignment. We use a two-phase training to learn intention encoding and intention sharing respectively, and decompose joint action values based on counterfactual baseline ideas. We deployed scenarios in both simulated and real environments with various sizes, numbers of boxes, and numbers of agents and compare CC-MARL with various classical MARL algorithms on box-pushing tasks of different map scales in simulation, demonstrating the state-of-the-art of our method.
-		    		<p></p>
-                <br>
-                <div style="text-align: center;">
-                    <img src="./projects/01_fh.JPG" width=70%>
-                </div>
-            </td>
-        </tr>
-		<!-- 02 -->
-        <tr>
-            <td style="padding:10px;width:100%;vertical-align:top;text-align:justify;">
-				<a href="https://dl.acm.org/doi/full/10.1145/3702226">
-					<papertitle><b>Physical-aware 3D Shape Understanding for Finishing Incomplete Assembly</b></papertitle>
-				</a>
-				<br> Weihao Wang, <b>Mingyu You*</b>, Hongjun Zhou, Bin He
-				<br>
-				<em>ACM Transactions on Graphics</em>, 2024
-				<br>
-				<a href="https://dl.acm.org/doi/full/10.1145/3702226">paper</a>/<a href="videos/02_wwh.mp4">video</a>
-				<br>
-				<br>
-				<b>Abstract </b>This work introduces PhysFiT, a f·ramework addressing 3D assembly completion (repairing broken furniture by identifying missing parts and ensuring physical compliance). Challenges lie in satisfying physical constraints (connectivity, stability, symmetry) to avoid impractical yet visually plausible assemblies. Solutions include attention-based part relation modeling, connection analysis, simulation-free stability optimization, and symmetry consistency enforcement. Results demonstrate PhysFiT’s superiority in generating geometrically and physically valid assemblies for both part assembly and novel completion tasks.
-		    		<p></p>
-                <br>
-                <div style="text-align: center;">
-                    <img src="./projects/02_wwh.jpg" width=70%>
-                </div>
-            </td>
-        </tr>
-		<!-- 03 -->
-        <tr>
-            <td style="padding:10px;width:100%;vertical-align:top;text-align:justify;">
-				<a href="https://dl.acm.org/doi/abs/10.1145/3664647.3681678">
-					<papertitle><b>Scene Diffusion: Text-driven Scene Image Synthesis Conditioning on a Single 3D Model</b></papertitle>
-				</a>
-				<br> Xuan Han,Yihao Zhao,<b>Mingyu You*</b>
-				<br>
-				<em>ACM MM oral presentation (3.87%)</em>, 2024
-				<br>
-				<a href="https://dl.acm.org/doi/abs/10.1145/3664647.3681678">paper</a>/<a href="videos/03_hx.mp4">video</a>
-				<br>
-				<br>
-				<b>Abstract </b>This work synthesizes the scene image conditioning on the single 3D model and the scene description. To address appearance fidelity and visual harmony in AI-generated images, Scene Diffusion introduces SACA to enforce consistency between input conditions and output, and FPTS to moderate high-frequency signals in object regions for holistic coherence. In contrast to traditional 3D-based pipeline, this framework eliminates the laborious scene construction step and offers enhanced adaptability in time-sensitive situations.
-		    		<p></p>
-                <br>
-                <div style="text-align: center;">
-                    <img src="./projects/03_hx.JPG" width=70%>
-                </div>
-            </td>
-        </tr>
-		<!-- 04 -->
-		<tr>
-		    <td style="padding:10px;width:100%;vertical-align:top;text-align:justify;">
-				<a href="https://arxiv.org/pdf/2410.08192">
-					<papertitle><b>HybridBooth: Hybrid Prompt Inversion for Efficient Subject-Driven Generation</b></papertitle>
-				</a>
-				<br>Shanyan Guan, Yanhao Ge, Yin Tan, Jian Yang, Wei Li,<b>Mingyu You*</b>
-				<br>
-				<em>ECCV</em>, 2024
-				<br>
-				<a href="https://arxiv.org/pdf/2410.08192">paper</a>
-				<br>
-				<br>
-				<b>Abstract</b> Text-to-image diffusion models excel at generating creative outputs from text prompts but struggle with subject-driven generation for personalized instances. We introduce HybridBooth, a hybrid framework combining optimization-based and direct-regression approaches. It features two stages: a Word Embedding Probe using a fine-tuned encoder to create robust initial embeddings, and a Word Embedding Refinement stage that adapts the encoder to subject images via parameter optimization. This enables efficient inversion of visual concepts into text embeddings from single images while preserving generalization.
-			    	<p></p>
-		        <br>
-		        <div style="text-align: center;">
-		            <img src="./projects/04_gyh.JPG" width=70%>
-		        </div>
-		    </td>
-		</tr>
-		<!-- 05 -->
-		<tr>
-		    <td style="padding:10px;width:100%;vertical-align:top;text-align:justify;">
-				<a href="https://ieeexplore.ieee.org/abstract/document/10543266">
-					<papertitle><b>Contrast, Imitate, Adapt: Learning Robotic Skills from Raw Human Videos</b></papertitle>
-				</a>
-				<br>Zhifeng Qian,<b>Mingyu You*</b>,Hongjun Zhou, Xuanhui Xu, Hao Fu, Jinzhe Xue, Bin He
-				<br>
-				<em>IEEE Transactions on Automation Science and Engineering</em>, 2024
-				<br>
-				<a href="https://ieeexplore.ieee.org/abstract/document/10543266">paper</a>/<a href="videos/05_qzf.mp4">video</a>
-				<br>
-				<br>
-				<b>Abstract</b> We propose a three-stage skill learning framework denoted as Contrast-Imitate-Adapt (CIA). An interaction-aware alignment transformer is proposed to learn task priors by temporally aligning video pairs. Then a trajectory generation model is used to learn action priors. To further adapt to diverse scenarios, we propose a two-stage policy improvement method by initialization and interaction, the Inversion-Interaction method is designed to initialize coarse trajectories and refine them by limited interaction. In addition, CIA introduces an optimization method based on semantic directions of trajectories for interaction security and sample efficiency. The alignment distances computed by IAAformer are used as the rewards.
-			    	<p></p>
-		        <br>
-		        <div style="text-align: center;">
-		            <img src="./projects/05_qzf.jpg" width=70%>
-		        </div>
-		    </td>
-		</tr>
-		<!-- 06 -->
-		<tr>
-		    <td style="padding:10px;width:100%;vertical-align:top;text-align:justify;">
-				<a href="https://ieeexplore.ieee.org/document/10568524">
-					<papertitle><b>Cross-factory Polarizer Sheet Surface Defect Inspection System Based on Multi-Teacher Knowledge Amalgamation</b></papertitle>
-				</a>
-				<br><b>Mingyu You</b>,Baiyu Ren; Hongjun Zhou*
-				<br>
-				<em>IEEE Transactions on Instrumentation & Measurement</em>, 2024
-				<br>
-				<a href="https://ieeexplore.ieee.org/document/10568524">paper</a>  /<a href="https://github.com/Herrera21-a/MTKA">code</a> / <a href="videos/06_rby.mp4">video</a>
-				<br>
-				<br>
-				<b>Abstract</b> This paper presents an AOI system for polarizer sheet surface defect inspection, addressing challenges like image clarity, residue interference, and cross-factory data variations. To enhance model generalizability, we propose a novel multi-teacher knowledge amalgamation approach with two selection strategies: Stu-MKA and Atn-MKA. These strategies guide knowledge fusion from diverse models, improving performance despite limited annotated samples. Successfully deployed across multiple factories, our system boosts production capacity, reduces human errors, and has been well received by end users.
-			    	<p></p>
-		        <br>
-		        <div style="text-align: center;">
-		            <img src="./projects/06_rby.JPG" width=70%>
-		        </div>
-		    </td>
-		</tr>
-		<!-- 07 -->
-		<tr>
-		    <td style="padding:10px;width:100%;vertical-align:top;text-align:justify;">
-				<a href="https://www.cambridge.org/core/journals/robotica/article/robot-imitation-from-multimodal-observation-with-unsupervised-crossmodal-representation/6B8AA9AC5470D433625BB7F795F091D6">
-					<papertitle><b>Robot Imitation from Multimodal Observation with Unsupervised Cross-Modal Representation</b></papertitle>
-				</a>
-				<br>Xuanhui Xu,<b>Mingyu You*</b>,Hongjun Zhou, Bin He
-				<br>
-				<em>Robotica</em>, 2024
-				<br>
-				<a href="https://www.cambridge.org/core/journals/robotica/article/robot-imitation-from-multimodal-observation-with-unsupervised-crossmodal-representation/6B8AA9AC5470D433625BB7F795F091D6">paper</a> / <a href="videos/07_xxh.mp4">video</a> 
-				<br>
-				<br>
-				<b>Abstract</b>  In this article, we propose a new approach for robot IfO via multimodal observations. Different modalities describe the same information from different sides, which can be used to design an unsupervised proxy task. Our approach contains two modules: the unsupervised cross-modal representation (UCMR) module and a self-behavioral cloning (self-BC)-based RL module. The UCMR module learns to extract task-relevant representations via a multimodal unsupervised proxy task. The Self-BC for further offline policy optimization collects successful experiences during the RL training.
-			    <p></p>
-		        <br>
-		        <div style="text-align: center;">
-		            <img src="./projects/07_xxh.jpg" width=70%>
-		        </div>
-		    </td>
-		</tr>
-		<!-- 08 -->
-		<tr>
-		    <td style="padding:10px;width:100%;vertical-align:top;text-align:justify;">
-				<a href="https://ieeexplore.ieee.org/abstract/document/10296870">
-					<papertitle><b>Improving the Conditional Fine-grained Image Generation with Part Perception</b></papertitle>
-				</a>
-				<br>Xuan Han,<b>Mingyu You*</b>
-				<br>
-				<em>IEEE Transactions on Multimedia</em>, 2024
-				<br>
-				<a href="https://ieeexplore.ieee.org/abstract/document/10296870">paper</a> / <a href="videos/08_hx.mp4">video</a>
-				<br>
-				<br>
-				<b>Abstract</b> Fine-grained conditional image generation requires accurate local details. Existing methods relying on global features often fail to capture discriminative local semantics. We propose PartGAN, which decomposes images into part-level embeddings and uses a conditional loss to enforce semantic consistency across all parts. This approach ensures stable local appearances while maintaining class-level coherence. Experiments on benchmarks demonstrate significant improvements in fine-grained image generation quality.
-			    	<p></p>
-		        <br>
-		        <div style="text-align: center;">
-		            <img src="./projects/08_hx.JPG" width=70%>
-		        </div>
-		    </td>
-		</tr>
-		<!-- 09 -->
-		<tr>
-		    <td style="padding:10px;width:100%;vertical-align:top;text-align:justify;">
-				<a href="https://dl.acm.org/doi/abs/10.1145/3607541.3616815">
-					<papertitle><b>Semi-supervised Learning with Easy Labeled Data via Impartial Labeled Set Extension</b></papertitle>
-				</a>
-				<br>Xuan Han,<b>Mingyu You*</b>
-				<br>
-				<em>ACM MM workshop</em>, 2023
-				<br>
-				<a href="https://dl.acm.org/doi/abs/10.1145/3607541.3616815">paper</a> / <a href="videos/09_hx.mp4">video</a>
-				<br>
-				<br>
-				<b>Abstract</b> In this paper, we analyze the problem of semi-supervised learning with easy labeled data for the ffrst time. To meet the challenge,we take full advantage of underlying sample distribution and propose  a novel evolutionary framework – Solar Eclipse. The whole method revolves around the idea of impartial labeled set extension.In our method, an region-wise feature distance measurement and a dual-view feature base are introduced to ensure the reliability of extending sample screening. Experiments on the easy and i.i.d labeled  data condition show the effectiveness of proposed framework.
-			    	<p></p>
-		        <br>
-		        <div style="text-align: center;">
-		            <img src="./projects/09_hx.JPG" width=70%>
-		        </div>
-		    </td>
-		</tr>
-		<!-- 10 -->
-		<tr>
-		    <td style="padding:10px;width:100%;vertical-align:top;text-align:justify;">
-				<a href="https://ieeexplore.ieee.org/abstract/document/10355013">
-					<papertitle><b>A Modular Framework for Robot Embodied Instruction Following by Large Language Model</b></papertitle>
-				</a>
-				<br>Long Li, Hongjun Zhou,<b>Mingyu You*</b>
-				<br>
-				<em>IEEE International Conference on Robotics & Biomimetics (ROBIO)</em>, 2023
-				<br>
-				<a href="https://ieeexplore.ieee.org/abstract/document/10355013">paper</a> /<a href="https://leaderboard.allenai.org/alfred/submissions/public">submissions and results</a> 
-				<br>
-				<br>
-				<b>Abstract</b> To address challenges in robot task scheduling for embodied instruction following (EIF) in the ALFRED benchmark, we propose REIF, a modular framework integrating visual perception, language understanding, semantic search, and closed container prediction. By enhancing semantic reasoning and object interaction capabilities, REIF achieves state-of-the-art performance on unseen scenes with 50.83% accuracy and 23.06% efficiency, winning the ALFRED competition.
-			    	<p></p>
-		        <br>
-		        <div style="text-align: center;">
-		            <img src="./projects/10.JPG" width=70%>
-		        </div>
-		    </td>
-		</tr>
-		<!-- 11 -->
-		<tr>
-		    <td style="padding:10px;width:100%;vertical-align:top;text-align:justify;">
-				<a href="https://ieeexplore.ieee.org/abstract/document/10354761">
-					<papertitle><b>A Real-Time Assistance System with Virtual-Real Fusion for Similar Components Assembly</b></papertitle>
-				</a>
-				<br>Jinzhe Xue,Hongjun Zhou,<b>Mingyu You*</b>
-				<br>
-				<em>IEEE International Conference on Robotics & Biomimetics (ROBIO)</em>, 2023
-				<br>
-				<a href="https://ieeexplore.ieee.org/abstract/document/10354761">paper</a> / <a href="videos/11_xjz.mp4">video</a>
-				<br>
-				<br>
-				<b>Abstract</b> This paper presents a virtual-real fusion assembly system focusing on similar-component scenarios. Its innovations include global-local consistency constraints for object segmentation and accelerated point cloud registration, enabling real-time applications in complex tasks like Burr puzzle assembly. The pose estimator achieves high accuracy and speed, and combined with NVIDIA Omniverse, shows potential in digital twin applications.
-			    	<p></p>
-		        <br>
-		        <div style="text-align: center;">
-		            <img src="./projects/11_xjz.jpg" width=70%>
-		        </div>
-		    </td>
-		</tr>
-		<!-- 12 -->
-		<tr>
-		    <td style="padding:10px;width:100%;vertical-align:top;text-align:justify;">
-				<a href="https://www.sciencedirect.com/science/article/pii/S0921889023001914">
-				   <papertitle><b>Task Parse Tree: Learning Task Policy from Videos with Task-irrelevant Components</b></papertitle>
-				</a>
-				<br>Weihao Wang,<b>Mingyu You*</b>
-				<br>
-				<em>Robotics and Autonomous Systems</em>, 2023
-				<br>
-				<a href="https://www.sciencedirect.com/science/article/pii/S0921889023001914">paper</a> / <a href="videos/demo_planning_independently.mp4">video:planning_independently</a>/ <a href="videos/demo_planning_interactively.mp4">video:planning_interactively</a>
-				<br>
-				<br>
-				<b>Abstract</b> This work aims to automatically learn interpretable task policies (explicitly capturing action preconditions and task composition) from videos. Key challenges include handling task-irrelevant components (e.g., unoperated objects or minor actions) that introduce disruptive visual relations and misleading task logic, which existing methods fail to address jointly. Solution: Propose a Task Parse Tree (TPT) representation, leveraging a spatio-temporal graph (STG) to identify critical object attribute changes and a conjugate action graph (CAG) to model action execution logic, thereby isolating task-relevant actions with clear preconditions and order. Results: TPT achieves accurate and interpretable task planning in real-world scenarios (e.g., "Make Tea"), outperforming baselines in handling task-irrelevant noise across diverse settings.
-			    	<p></p>
-		        <br>
-		        <div style="text-align: center;">
-		            <img src="./projects/12_wwh.jpg" width=70%>
-		        </div>
-		    </td>
-		</tr>
-		<!-- 13 -->
-		<tr>
-		    <td style="padding:10px;width:100%;vertical-align:top;text-align:justify;">
-				<a href="https://www.sciencedirect.com/science/article/abs/pii/S0921889023001057">
-					<papertitle><b>Robot learning from human demonstrations with inconsistent contexts</b></papertitle>
-				</a>
-				<br>Zhifeng Qian,<b>Mingyu You*</b>, Hongjun Zhou, Xuanhui Xu, Bin He
-				<br>
-				<em>Robotics and Autonomous Systems</em>, 2023
-				<br>
-				<a href="https://www.sciencedirect.com/science/article/abs/pii/S0921889023001057">paper</a> / <a href="videos/13_qzf.mp4">video</a>
-				<br>
-				<br>
-				<b>Abstract</b> In this paper, we propose a novel imitation learning framework to enable robots to reproduce behavior by watching human demonstrations with inconsistent contexts, such as different viewpoints, operators, backgrounds, object appearances and positions. Specifically, our framework consists of three networks: flow-based viewpoint transformation network (FVTrans), robot2human alignment network (RANet) and inverse dynamics network (IDNet). First, FVTrans transforms various third-person demonstrations into the fixed robot execution view. With a meta learning strategy, FVTrans can quickly adapt to novel contexts with few samples. Then, RANet aligns the human and the robot at the feature level. Therefore, the demonstration feature can be used as a subgoal of the current moment. Finally, IDNet predicts the joint angles of the robot.
-			    	<p></p>
-		        <br>
-		        <div style="text-align: center;">
-		            <img src="./projects/13_qzf.JPG" width=70%>
-		        </div>
-		    </td>
-		</tr>
-		
-		<!-- 14 -->
-		<tr>
-		    <td style="padding:10px;width:100%;vertical-align:top;text-align:justify;">
-				<a href="https://ieeexplore.ieee.org/abstract/document/10155203">
-					<papertitle><b>Goal-Conditioned Reinforcement Learning with Disentanglement-based Reachability Planning</b></papertitle>
-				</a>
-				<br>Zhifeng Qian,<b>Mingyu You*</b>Hongjun Zhou, Xuanhui Xu, Bin He
-				<br>
-				<em>IEEE Robotics and Automation Letters</em>, 2023
-				<br>
-				<a href="https://ieeexplore.ieee.org/abstract/document/10155203">paper</a> / <a href="videos/14_qzf.mp4">video</a>
-				<br>
-				<br>
-				<b>Abstract</b> In the letter, we propose a goal-conditioned RL algorithm combined with Disentanglement-based Reachability Planning (REPlan) to solve temporally extended tasks. In REPlan, a Disentangled Representation Module (DRM) is proposed to learn compact representations which disentangle robot poses and object positions from high-dimensional observations in a self-supervised manner. A simple Reachability Discrimination Module (REM) is also designed to determine the temporal distance of subgoals. Moreover, REM computes intrinsic bonuses to encourage the collection of novel states for training.
-			    	<p></p>
-		        <br>
-		        <div style="text-align: center;">
-		            <img src="./projects/14_qzf.JPG" width=70%>
-		        </div>
-		    </td>
-		</tr>
-		
-		<!-- 15 -->
-		<tr>
-		    <td style="padding:10px;width:100%;vertical-align:top;text-align:justify;">
-				<a href="https://ieeexplore.ieee.org/abstract/document/10149371">
-					<papertitle><b>GAN-Based Editable Movement Primitive from High-Variance Demonstrations</b></papertitle>
-				</a>
-				<br>Xuanhui Xu,<b>Mingyu You*</b>Hongjun Zhou, Bin He
-				<br>
-				<em>IEEE Robotics and Automation Letters</em>, 2023
-				<br>https://github.com/Xu-Xuanhui/EditMP
-				<a href="https://ieeexplore.ieee.org/abstract/document/10149371">paper</a> / <a href="videos/15_xxh.mp4">video</a>/ <a href="https://github.com/Xu-Xuanhui/EditMP">code</a>
-				<br>
-				<br>
-				<b>Abstract</b> We propose a novel transformer and GAN-based Editable Movement Primitive (EditMP), which can learn movements from high-variance demonstrations. These demonstrations include the movements in the task scenes with various target positions and obstacles. After movement learning, EditMP can controllably and interpretably edit the learned movements for new task scenes. Notably, EditMP enables all robot joints rather than the robot end-effector to avoid hitting complex obstacles.
-			    	<p></p>
-		        <br>
-		        <div style="text-align: center;">
-		            <img src="./projects/15_xxh.JPG" width=70%>
-		        </div>
-		    </td>
-		</tr>
-		
-		<!-- 16 -->
-		<tr>
-		    <td style="padding:10px;width:100%;vertical-align:top;text-align:justify;">
-				<a href="https://kns.cnki.net/kcms2/article/abstract?v=RyE_S26iMhVBOgLWeT_VgWSycGlLlYisx7hi6d11D2GoRFesICNb2zcx7bWKLFyQEhoAESFBoh1QNQXkAVySnkKXJMixShtuurk8jIezJ79LvLfuSkzL6SJqtcN9YHrAO6N7Qymf6iBB7GSEQw2j6d7IbnivMKPvg6LIdTRaW8oi8SahzJ8MNAaet0mehABF&uniplatform=NZKPT&language=CHS">
-					<papertitle><b>基于稳定性优化的三维装配补全方法</b></papertitle>
-				</a>
-				<br>姚启皓,王伟昊,<b>尤鸣宇*</b>
-				<br>
-				<em>南京大学学报</em>, 2023
-				<br>
-				<a href="https://kns.cnki.net/kcms2/article/abstract?v=RyE_S26iMhVBOgLWeT_VgWSycGlLlYisx7hi6d11D2GoRFesICNb2zcx7bWKLFyQEhoAESFBoh1QNQXkAVySnkKXJMixShtuurk8jIezJ79LvLfuSkzL6SJqtcN9YHrAO6N7Qymf6iBB7GSEQw2j6d7IbnivMKPvg6LIdTRaW8oi8SahzJ8MNAaet0mehABF&uniplatform=NZKPT&language=CHS">paper</a>
-				<br>
-				<br>
-				<b>摘要</b> 三维装配补全需机器人识别缺失部件并优化位姿。现有方法忽略稳定性导致补全准确率低。我们提出 StableFiT，通过定义稳定性验证方法，基于 NVIDIA Isaac Sim 训练稳定性判别器，并结合稳定性反馈优化补全过程。PartNet 数据集实验表明，该方法显著提升补全装配体的正确性与稳定性。
-			    	<p></p>
-		        <br>
-		        <div style="text-align: center;">
-		            <img src="./projects/16_yqh.jpg" width=70%>
-		        </div>
-		    </td>
-		</tr>
-		
-		<!-- 17 -->
-		<tr>
-		    <td style="padding:10px;width:100%;vertical-align:top;text-align:justify;">
-				<a href="https://ieeexplore.ieee.org/abstract/document/10107717">
-					<papertitle><b>MBFQuant: A Multiplier-Bitwidth-Fixed, Mixed Precision Quantization Method for Mobile CNN-Based Applications</b></papertitle>
-				</a>
-				<br>Peng Peng,<b>Mingyu You*</b>Kai Jiang, Youzao Lian, Weisheng Xu
-				<br>
-				<em>IEEE Transactions on Image Processing</em>, 2023
-				<br>
-				<a href="https://ieeexplore.ieee.org/abstract/document/10107717">paper</a>
-				<br>
-				<br>
-				<b>Abstract</b> Deploying CNNs on mobile devices faces challenges due to computational constraints. MBFQuant, a mixed-precision quantization pipeline, fixes multiplier bitwidth while keeping weight and activation bitwidth sum constant. Using a simulated annealing optimizer, it optimizes bitwidth assignments. Experiments on 10 CNNs and 4 datasets show up to 19.34% classification and 1.12% detection accuracy gains over uniform bitwidth quantized model.
-				<p></p>
-		        <br>
-		        <div style="text-align: center;">
-		            <img src="./projects/17_pp.JPG" width=70%>
-		        </div>
-		    </td>
-		</tr>
-		
-		<!-- 18 -->
-		<tr>
-		    <td style="padding:10px;width:100%;vertical-align:top;text-align:justify;">
-				<a href="https://ieeexplore.ieee.org/document/10017136">
-					<papertitle><b>Design of an Efficient CNN-based Cough Detection System on Lightweight FPGA</b></papertitle>
-				</a>
-				<br>Peng Peng, Kai Jiang, <b>Mingyu You*</b>, Hongjun Zhou, Weisheng Xu
-				<br>
-				<em>IEEE Transactions on Biomedical Circuits and Systems</em>, 2023
-				<br>
-				<a href="https://ieeexplore.ieee.org/document/10017136">paper</a>
-				<br>
-				<br>
-				<b>Abstract</b> This paper proposes an efficient framework for cough sound detection at the edge side. We present a compact CNN architecture paired with a custom hardware accelerator. Through network design optimization, we identify an optimal model achieving higher accuracy with lower computational cost than previous works. The system is implemented on a lightweight FPGA, demonstrating a full prototype solution. The evaluation results reveal that this work reaches a very high performance in terms of power and operation efficiency.
-				<p></p>
-		        <br>
-		        <div style="text-align: center;">
-		            <img src="./projects/18_pp.JPG" width=70%>
-		        </div>
-		    </td>
-		</tr>
-		
-		<!-- 19 -->
-		<tr>
-		    <td style="padding:10px;width:100%;vertical-align:top;text-align:justify;">
-				<a href="https://ojs.aaai.org/index.php/AAAI/article/view/25365">
-					<papertitle><b>3D Assembly Completion</b></papertitle>
-				</a>
-				<br>Weihao Wang, Rufeng Zhang<b>Mingyu You*</b>, Hongjun Zhou, Bin He
-				<br>
-				<em>Proceedings of the Thirty-Seventh AAAI Conference on Artificial Intelligence</em>, 2023
-				<br>
-				<a href="https://ojs.aaai.org/index.php/AAAI/article/view/25365">paper</a>/ <a href="videos/19_wwh_1.mp4">vedio1</a>/ <a href="videos/19_wwh_2.mp4">vedio2</a>
-				<br>
-				<br>
-				<b>Abstract</b> This work introduces 3D assembly completion, a novel task enabling robots to complete partially assembled structures (e.g., half-built furniture) using parts from a toolkit. Key challenges include identifying missing parts (prone to confusion due to geometrically similar candidates) and predicting their 6-DoF poses, whereas prior methods focus only on assembly from scratch. Solution: A Transformer-based framework (FiT) is proposed, where an encoder models the incomplete assembly into memory, enabling candidate-memory interactions for part classification and pose prediction, refined via bipartite matching and symmetric transformation consistency. Results: FiT outperforms baselines in part selection and pose accuracy, with designed standard toolkits (varying difficulty) supporting reliable evaluation and future research.
-			    	<p></p>
-		        <br>
-		        <div style="text-align: center;">
-		            <img src="./projects/19_wwh.JPG" width=70%>
-		        </div>
-		    </td>
-		</tr>
-		
-		<!-- 20 -->
-		<tr>
-		    <td style="padding:10px;width:100%;vertical-align:top;text-align:justify;">
-				<a href="https://www.sciencedirect.com/science/article/abs/pii/S0031320322005039">
-					<papertitle><b>Dynamic Dense CRF Inference for Video Segmentation and Semantic SLAM</b></papertitle>
-				</a>
-				<br><b>Mingyu You*</b>Chaoxian Luo, Hongjun Zhou
-				<br>
-				<em>Pattern Recognition</em>, 2023
-				<br>
-				<a href="https://www.sciencedirect.com/science/article/abs/pii/S0031320322005039">paper</a>
-				<br>
-				<br>
-				<b>Abstract</b> We extend dense CRF to dynamic sensor data modeling, enabling incremental multi-class video segmentation and semantic SLAM. The algorithm efficiently computes MAP for changing CRF models with computational cost proportional to Gaussian edge updates. Unlike traditional methods, it maintains constant inference time as sensor data grows, making it suitable for incremental applications. Experiments show significant speed improvements with unchanged accuracy in video segmentation and SLAM integration. This generic approach enhances MAP optimization in dynamic models.
-			    	<p></p>
-		        <br>
-		        <div style="text-align: center;">
-		            <img src="./projects/20.JPG" width=70%>
-		        </div>
-		    </td>
-		</tr>
-		
-		<!-- 21 -->
-		<tr>
-		    <td style="padding:10px;width:100%;vertical-align:top;text-align:justify;">
-				<a href="https://ieeexplore.ieee.org/abstract/document/9944073">
-					<papertitle><b>Robot Imitation Learning from Image-only Observation without Real world Interaction</b></papertitle>
-				</a>
-				<br>Xuanhui Xu,<b>Mingyu You*</b>, Hongjun Zhou, Bin He
-				<br>
-				<em>IEEE/ASME Transactions on Mechatronics</em>, 2023
-				<br>
-				<a href="https://ieeexplore.ieee.org/abstract/document/9944073">paper</a>/ <a href="videos/21_xxh.mp4">vidio</a>
-				<br>
-				<br>
-				<b>Abstract</b> This article proposes the LION net (Learning from Image-only Observation net), which learns action from image-only demonstrations, e.g., a video of a human demonstrating a task, and reduces the number of the robot–environment interaction to zero in the real world. It is expected to be a realistic solution for real-world robot LfO. The LION net comprises two modules: 1) a domain transfer module that bridges the gap between the simulator and the real world and an RL-based control module that utilizes images as input to learning a task. The LION net affords the robot to imitate an action from the image-only human demonstration in the simulator and perform the learned action in the real world without additional training.
-			    	<p></p>
-		        <br>
-		        <div style="text-align: center;">
-		            <img src="./projects/21_xxh.JPG" width=70%>
-		        </div>
-		    </td>
-		</tr>
-		
-		<!-- 22 -->
-		<tr>
-		    <td style="padding:10px;width:100%;vertical-align:top;text-align:justify;">
-				<a href="https://ieeexplore.ieee.org/abstract/document/9813581">
-					<papertitle><b>3D Part Assembly Generation with Instance Encoded Transformer</b></papertitle>
-				</a>
-				<br>Rufeng Zhang, Tao Kong, Weihao Wang, Xuan Han, <b>Mingyu You*</b>
-				<br>
-				<em>IEEE Robotics and Automation Letters</em>, 2022
-				<br>
-				<a href="https://ieeexplore.ieee.org/abstract/document/9813581">paper</a>
-				<br>
-				<br>
-				<b>Abstract</b> This work proposes a multi-layer transformer-based framework for 6-DoF part pose estimation in robotic furniture assembly, extending to in-process part assembly (resuming work on unfinished products). Key challenges include resolving ambiguities among geometrically similar parts and adapting pose estimation to incomplete assemblies (analogous to furniture maintenance). Solution: The framework integrates geometric and relational reasoning between parts for iterative pose refinement, along with a unique instance encoding to distinguish similar parts. Results: The method achieves >10% improvements over state-of-the-art baselines across metrics on the PartNet dataset, demonstrating robust performance in both full and partial assembly scenarios.
-			    	<p></p>
-		        <br>
-		        <div style="text-align: center;">
-		            <img src="./projects/22_wwh.JPG" width=70%>
-		        </div>
-		    </td>
-		</tr>
-		
-		<!-- 23 -->
-		<tr>
-		    <td style="padding:10px;width:100%;vertical-align:top;text-align:justify;">
-				<a href="https://www.sciencedirect.com/science/article/abs/pii/S0031320321006816">
-					<papertitle><b>Mask Encoding: A General Instance Mask Representation for Object Segmentation</b></papertitle>
-				</a>
-				<br>Rufeng Zhang, Tao Kong, Weihao Wang, Xuan Han, <b>Mingyu You*</b>
-				<br>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
-				<em>Pattern Recognition</em>, 2022
-				<br>
-				<a href="https://www.sciencedirect.com/science/article/abs/pii/S0031320321006816">paper</a>/<a href="https://git.io/AdelaiDet">code</a>
-				<br>
-				<br>
-				<b>Abstract</b> In this work, we propose Mask Encoding, a general method that encodes the structured mask to a compact vector. Unlike previous works that typically solve mask prediction as binary classiﬁcation in a spatial layout, our method steps forward to represent the mask in a more compact way that shares the advantages of highquality  and low-complexity. We demonstrate its effectiveness with different model architectures (two-stage and one-stage), on various datasets (COCO, cityscapes, etc .), in diverse tasks (instance segmentation and video segmentation), and achieve competitive performances.
-			    	<p></p>
-		        <br>
-		        <div style="text-align: center;">
-		            <img src="./projects/23_wwh.JPG" width=70%>
-		        </div>
-		    </td>
-		</tr>
-		
-		<!-- 24 -->
-		<tr>
-		    <td style="padding:10px;width:100%;vertical-align:top;text-align:justify;">
-				<a href="https://ieeexplore.ieee.org/abstract/document/9677980">
-					<papertitle><b>Weakly Supervised Disentangled Representation for Goal-conditioned Reinforcement Learning</b></papertitle>
-				</a>
-				<br>Zhifeng Qian, <b>Mingyu You*</b>,Hongjun Zhou, Bin He
-				<br>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
-				<em>International Conference on Robotics and Automation (ICRA)</em>, 2022
-				<br>
-				<a href="https://ieeexplore.ieee.org/abstract/document/9677980">paper</a>/<a href="vedios/24_qzf.mp4">vedio</a>
-				<br>
-				<br>
-				<b>Abstract</b> We propose a skill learning framework DR-GRL that aims to improve the sample efficiency and policy generalization by combining the Disentangled Representation learning and Goal-conditioned visual Reinforcement Learning. In a weakly supervised manner, we propose a Spatial Transform AutoEncoder (STAE) to learn an interpretable and controllable representation in which different parts correspond to different object attributes (shape, color, position). Due to the high controllability of the representations, STAE can simply recombine and recode the representations to generate unseen goals for agents to practice themselves. The manifold structure of the learned representation maintains consistency with the physical position, which is beneficial for reward calculation.
-			    	<p></p>
-		        <br>
-		        <div style="text-align: center;">
-		            <img src="./projects/24_qzf.JPG" width=50%>
-		        </div>
-		    </td>
-		</tr>
-		
-		<!-- 25 -->
-		<tr>
-		    <td style="padding:10px;width:100%;vertical-align:top;text-align:justify;">
-				<a href="https://www.sciencedirect.com/science/article/pii/S1746809421009010">
-					<papertitle><b>Automatic cough detection from realistic audio recordings using C-BiLSTM with boundary regression</b></papertitle>
-				</a>
-				<br><b>Mingyu You</b>WeihaoWang, You Li, Jiaming Liu, Xianghuai Xu, Zhongmin Qiu
-				<br>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
-				<em>Biomedical Signal Processing and Control</em>, 2022
-				<br>
-				<a href="https://www.sciencedirect.com/science/article/pii/S1746809421009010">paper</a>
-				<br>
-				<br>
-				<b>Abstract</b> This work develops a deep convolutional BiLSTM model with boundary regression for automatic cough detection in real-world patient audio recordings (e.g., COVID-19 monitoring). Key challenges include accurately segmenting cough events amidst background noise, preserving temporal coherence, and ensuring precise event boundaries for clinical relevance. Solution: A hybrid C-BiLSTM architecture integrates convolutional layers to enhance cough-specific features and temporal modeling, coupled with boundary regression on the final feature map to refine detection accuracy and event integrity. Results: The model achieves 84.13% sensitivity, 99.82% specificity, and 0.89 IoU on the open-source Corp Dataset (168h of labeled patient recordings), surpassing existing methods. The dataset and state-of-the-art system establish a benchmark for real-world cough detection research.
-			    	<p></p>
-		        <br>
-		        <div style="text-align: center;">
-		            <img src="./projects/25_wwh.JPG" width=70%>
-		        </div>
-		    </td>
-		</tr>
-		
-		<!-- 26 -->
-		<tr>
-		    <td style="padding:10px;width:100%;vertical-align:top;text-align:justify;">
-				<a href="https://ieeexplore.ieee.org/abstract/document/9244142">
-					<papertitle><b>Part-Guided Attention Learning for Vehicle Instance Retrieval</b></papertitle>
-				</a>
-				<br>Xinyu Zhang, Rufeng Zhang, Jiewei Cao, Dong Gong,<b>Mingyu You*</b>,Chunhua Shen
-				<br>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
-				<em>IEEE Transactions on Intelligent Transportation Systems</em>, 2022
-				<br>
-				<a href="https://ieeexplore.ieee.org/abstract/document/9244142">paper</a>/<a href="https://github.com/zhangxinyu-xyz/PGAN-VehicleRe-ID?v=1">code</a>
-				<br>
-				<br>
-				<b>Abstract</b> Vehicle instance retrieval (IR) demands recognizing fine - grained visual differences. As vehicle holistic appearance is affected by viewpoints and distortion, vehicle parts offer crucial cues. We introduce a Part - Guided Attention Network (PGAN). PGAN first detects part and salient region locations, providing bottom - up attention to narrow search areas. A Part Attention Module (PAM) is proposed to estimate part importance, adaptively locating discriminative regions with high weights and suppressing irrelevant parts. Guided by identification loss, PAM gives top - down attention at the part and salient region level. Global and local features are then aggregated. PGAN combines bottom - up and top - down attention, as well as global and local features, in an end - to - end framework. Experiments show it reaches new state - of - the - art vehicle IR performance on four large - scale benchmark datasets.
-				<p></p>
-		        <br>
-		        <div style="text-align: center;">
-		            <img src="./projects/26.JPG" width=70%>
-		        </div>
-		    </td>
-		</tr>
-		
-		<!-- 27 -->
-		<tr>
-		    <td style="padding:10px;width:100%;vertical-align:top;text-align:justify;">
-				<a href="https://ojs.aaai.org/index.php/AAAI/article/view/16454">
-					<papertitle><b>Diverse Knowledge Distillation for End-to-End Person Search</b></papertitle>
-				</a>
-				<br>Xinyu Zhang, Xinlong Wang, Jia-Wang Bian, Chunhua Shen,<b>Mingyu You*</b>
-				<br>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
-				<em>AAAI</em>, 2021
-				<br>
-				<a href="https://ojs.aaai.org/index.php/AAAI/article/view/16454">paper</a>/<a href="https://git.io/DKD-PersonSearch">code</a>
-				<br>
-				<br>
-				<b>Abstract</b> In this paper, we identify that the Re-ID head is the main bottleneck in the end-to-end person search model. To this end, we propose a strong person search network to improve the Re-ID head with an external Re-ID model. We provide guidance on both the output and input of the model. For the model output, we design a diverse knowledge distillation, consisting of probability-aware and relation-aware KD, to let the Re-ID head mimic the well-trained Re-ID model. For the model input, we develop an image-level and feature-level spatial-invariant augmentations to make the Re-ID head insensitive to inaccurate detection results. Only the end-to-end model is needed during inference so that there is no additional computation. Extensive experiments show the effectiveness of our methods.
-			    <p></p>
-		        <br>
-		        <div style="text-align: center;">
-		            <img src="./projects/27.JPG" width=70%>
-		        </div>
-		    </td>
-		</tr>
-		
-		<!-- 28 -->
-		<tr>
-		    <td style="padding:10px;width:100%;vertical-align:top;text-align:justify;">
-				<a href="https://www.sciencedirect.com/science/article/abs/pii/S0925231220319354">
-					<papertitle><b>Fully integer-based quantization for mobile convolutional neural network inference</b></papertitle>
-				</a>
-				<br>Peng Peng,<b>Mingyu You*</b>,Weisheng Xu, Jiaxin Li
-				<br>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
-				<em>Neurocomputing</em>, 2021
-				<br>
-				<a href="https://www.sciencedirect.com/science/article/abs/pii/S0925231220319354">paper</a>/<a href="https://git.io/DKD-PersonSearch">code</a>
-				<br>
-				<br>
-				<b>Abstract</b> Deploying deep convolutional neural networks on mobile devices is challenging because of the conflict between high computational requirements and limited hardware capacity. Existing low-bitwidth quantization methods have a “datatype mismatch” problem, which leads to instruction redundancy and reduces efficiency. We propose a new quantization approach that uses only integer-based arithmetic during inference. Our method avoids the “datatype mismatch” issue and reduces run-time latency, while maintaining comparable accuracy to state-of-the-art methods. Experiments show that our fully integer-based quantized Resnet-18 has a small accuracy drop on ImageNet and is much faster than the original version on an ARMv8 CPU.
-				<p></p>
-		        <br>
-		        <div style="text-align: center;">
-		            <img src="./projects/28.JPG" width=70%>
-		        </div>
-		    </td>
-		</tr>
-		
-		<!-- 29 -->
-		<tr>
-		    <td style="padding:10px;width:100%;vertical-align:top;text-align:justify;">
-				<a href="https://www.sciencedirect.com/science/article/abs/pii/S0925231220319354">
-					<papertitle><b>Visual Landmark Learning Via Attention-Based Deep Neural Networks</b></papertitle>
-				</a>
-				<br><b>Mingyu You*</b>Chaoxian Luo, Hongjun Zhou
-				<br>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
-				<em>IEEE Transactions on Instrumentation and measurement</em>, 2021
-				<br>
-				<a href="https://www.sciencedirect.com/science/article/abs/pii/S0925231220319354">paper</a>/<a href="https://github.com/dotstudio01/landmark_learning.git.">code</a>
-				<br>
-				<br>
-				<b>Abstract</b> In this article, we proposed a method to build a landmark map using attention-based deep neural networks. We proposed LandmarkNet to extract regions that are important for camera pose estimation. Using the estimated depth map and regions extracted by LandmarkNet, landmark maps were built using SfM methods. The results of experiments on the KITTI dataset and the Tongji University dataset, which we created, show that our method can be used to build landmark maps that are computationally efﬁcient and easily interpretable. The effectiveness of the generated landmark maps was veriﬁed by performing localization tasks on the KITTI and Tongji datasets.
-			    	<p></p>
-		        <br>
-		        <div style="text-align: center;">
-		            <img src="./projects/29.JPG" width=70%>
-		        </div>
-		    </td>
-		</tr>
-		
-		<!-- 30 -->
-		<tr>
-		    <td style="padding:10px;width:100%;vertical-align:top;text-align:justify;">
-				<a href="https://www.sciencedirect.com/science/article/abs/pii/S0925231220319354">
-					<papertitle><b>Systematic evaluation of deep face recognition methods</b></papertitle>
-				</a>
-				<br><b>Mingyu You*</b>Chaoxian Luo, Hongjun Zhou
-				<br>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
-				<em>Neurocomputing</em>, 2020
-				<br>
-				<a href="https://www.sciencedirect.com/science/article/abs/pii/S0925231220319354">paper</a>/<a href="https://github.com/dotstudio01/landmark_learning.git.">code</a>
-				<br>
-				<br>
-				<b>Abstract</b> Compared with such high-precision and dense representation maps as the point cloud or occupancy grid maps, the landmark map has the advantages of compactness and memory efficiency, where these advantages are particularly prominent in a large-scale environment for robot localization, navigation, or environment measurement. However, training a robot to identify and select useful landmarks for localization is challenging. Due to this limitation, most landmarks are identified using handcrafted features. In this article, we propose a multitask neural network called LandmarkNet to build a flexible, optimal, and interpretable landmark map. The multitask neural network with an attention mechanism is trained for the robot's pose regression and the semantic segmentation of images from a set of sequences of monocular images. The image segmentation yields auxiliary semantic information for landmark selection based on some common-sense notions such as that the sky and clouds cannot be used as landmarks for robot localization. The attention feature map thus learned is used to select landmarks for robot localization based on the optimal projection between the image sequence with the corresponding pose of the robot and the semantic segmentation of the images. The learned landmark maps are also applied to mobile robot localization using traditional Monte Carlo localization (MCL). To verify the validity of our methods, we performed experiments on simulation, an open dataset (KITTI monoVO), and a dataset that we had created on the campus of Tongji University. The results show that the learned landmark map, which was only 6% of the size of the original map, can be used to accurately perform visual localization tasks. We open the source code on website https://github.com/dotstudio01/landmark_learning.git.
-				<p></p>
-		        <br>
-		        <div style="text-align: center;">
-		            <img src="./projects/30.JPG" width=70%>
-		        </div>
-		    </td>
-		</tr>
-		
-		<!-- 31 -->
-		<tr>
-		    <td style="padding:10px;width:100%;vertical-align:top;text-align:justify;">
-				<a href="https://openaccess.thecvf.com/content_CVPR_2020/html/Zhang_Mask_Encoding_for_Single_Shot_Instance_Segmentation_CVPR_2020_paper.html">
-					<papertitle><b>Mask Encoding for Single Shot Instance Segmentation</b></papertitle>
-				</a>
-				<br>Rufeng Zhang, Chunhua Shen<b>Mingyu You*</b>
-				<br>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
-				<em>IEEE Conference on Computer Vision and Pattern Recognition (CVPR)</em>, 2020
-				<br>
-				<a href="https://openaccess.thecvf.com/content_CVPR_2020/html/Zhang_Mask_Encoding_for_Single_Shot_Instance_Segmentation_CVPR_2020_paper.html">paper</a>/<a href="git.io/AdelaiDet">code</a>
-				<br>
-				<br>
-				<b>Abstract</b>In this work, we have introduced a new, simple singleshot instance segmentation framework termed MEInst. Different from previous works that typically solve mask prediction as binary classiﬁcation in a spatial layout, MEInst represents the mask with a ﬁxed-dimensional and compact vector, and casts the task into a regression task. The reformation allows the challenging task to be solved by appending a parallel regression branch to existing one-stage object detectors. Experimental analyses demonstrate that the proposed framework achieves competitive accuracy and speed among one-stage paradigms.
-			    	<p></p>
-		        <br>
-		        <div style="text-align: center;">
-		            <img src="./projects/31.JPG" width=70%>
-		        </div>
-		    </td>
-		</tr>
-		
-		
-		<!-- 32 -->
-		<tr>
-		    <td style="padding:10px;width:100%;vertical-align:top;text-align:justify;">
-				<a href="https://link.springer.com/article/10.1007/s11554-020-00980-1">
-					<papertitle><b>Fast contour detection with supervised attention learning</b></papertitle>
-				</a>
-				<br>Rufeng Zhang,<b>Mingyu You*</b>
-				<br>
-				<em>Journal of Real-Time Image Processing</em>, 2020
-				<br>
-				<a href="https://dl.acm.org/doi/abs/10.1145/3664647.3681678">paper</a>
-				<br>
-				<br>
-				<b>Abstract</b>Deep neural networks have advanced edge detection, but current detectors overlook pixel structural links, especially for contours. This study proposes a real - time Attention Edge Detection (AED) framework inspired by human perception. AED uses an attention mask for edge pixel relations and a decoder module to preserve downsampling - lost details. With just 0.65M parameters, it meets real - time needs. On the BSDS500 dataset, AED gets an F - score of 79.5 at 105 FPS, faster than similar - accuracy methods. A heavier AED model also achieves top results on BSDS500 and NYU Depth datasets.
-				<p></p>
-		        <br>
-		        <div style="text-align: center;">
-		            <img src="./projects/32.JPG" width=70%>
-		        </div>
-		    </td>
-		</tr>
-		
-		<!-- 33 -->
-		<tr>
-		    <td style="padding:10px;width:100%;vertical-align:top;text-align:justify;">
-				<a href="https://openaccess.thecvf.com/content_ICCV_2019/html/Zhang_Self-Training_With_Progressive_Augmentation_for_Unsupervised_Cross-Domain_Person_Re-Identification_ICCV_2019_paper.html">
-					<papertitle><b>Self-training with progressive augmentation for unsupervised cross-domain person re-identification</b></papertitle>
-				</a>
-				<br>Xinyu Zhang, Jiewei Cao, Chunhua Shen,<b>Mingyu You*</b>
-				<br>
-				<em>IEEE International Conference on Computer Vision (ICCV)</em>, 2019
-				<br>
-				<a href="https://openaccess.thecvf.com/content_ICCV_2019/html/Zhang_Self-Training_With_Progressive_Augmentation_for_Unsupervised_Cross-Domain_Person_Re-Identification_ICCV_2019_paper.html">paper</a>/<a href="tinyurl.com/PASTReID">code</a>
-				<br>
-				<br>
-				<b>Abstract</b> Person re - identification (Re - ID) has advanced with deep learning, yet adapting a model from a labelled source domain to an unlabelled target domain remains difficult. This work presents a self - training method with a Progressive Augmentation framework (PAST). PAST has two stages: the conservative stage uses triplet - based loss to capture local structure, and the promoting stage optimizes the network with a changeable classification layer. A new self - training strategy alternates these stages. Experiments show PAST achieves state - of - the - art performance in unsupervised cross - domain Re - ID, and its code is available at tinyurl.com/PASTReID.
-				<p></p>
-		        <br>
-		        <div style="text-align: center;">
-		            <img src="./projects/33.JPG" width=70%>
-		        </div>
-		    </td>
-		</tr>
-		
-		<!-- 34 -->
-		<tr>
-		    <td style="padding:10px;width:100%;vertical-align:top;text-align:justify;">
-				<a href="https://ieeexplore.ieee.org/abstract/document/8961570">
-					<papertitle><b>Simultaneous multi-task determination and manipulation with vision-based self-reasoning network</b></papertitle>
-				</a>
-				<br>Zhifeng Qian, Xuanhui Xu,<b>Mingyu You*</b>,Hongjun Zhou
-				<br>
-				<em>IEEE International Conference on Robotics and Biomimetics, ROBIO 2019, EI会议</em>
-				<br>
-				<a href="https://ieeexplore.ieee.org/abstract/document/8961570">paper</a>
-				<br>
-				<br>
-				<b>Abstract</b>  This paper proposes a muti-task self-reasoning neural network (MSRnet), which is an end-to-end imitation learning framework consisting of a self-reasoning module and a control module. The self-reasoning module supports the task objective inference, while the control module predicts the robot motor angles for manipulation. With multi-task learning, MSRnet enables robots to accomplish multiple tasks with one model without updating parameters.
-			    	<p></p>
-		        <br>
-		        <div style="text-align: center;">
-		            <img src="./projects/34.JPG" width=70%>
-		        </div>
-		    </td>
-		</tr>
-		
-		<!-- 35 -->
-		<tr>
-		    <td style="padding:10px;width:100%;vertical-align:top;text-align:justify;">
-				<a href="https://ieeexplore.ieee.org/abstract/document/8310009">
-					<papertitle><b>An Extended Filtered Channel Framework for Pedestrian Detection</b></papertitle>
-				</a>
-				<br><b>Mingyu You*</b>,Yubin Zhang, Chunhua Shen, Xinyu Zhang
-				<br>
-				<em>IEEE Transactions on Intelligent Transportation Systems</em>, 2018
-				<br>
-				<a href="https://ieeexplore.ieee.org/abstract/document/8310009">paper</a>
-				<br>
-				<br>
-				<b>Abstract</b> Pedestrian detection is a key object detection task. Many studies highlight the importance of image features for high - accuracy detection, and some enhance low - level features like gradients and colors with convolutional layers to get filtered channel features. This paper explores feature saturation by strengthening filtered channel features with more convolutional layers. Multilayer filters, acting as convolution kernels, are applied to low - level features like HOG and CIE - LUV color features (HOG+LUV) to create the Extended Filtered Channel Framework (ExtFCF). ExtFCF shows competitive results on popular benchmark datasets such as Caltech, INRIA, and KITTI. One ExtFCF implementation outperforms current top traditional methods on the Caltech dataset.
-				<p></p>
-		        <br>
-		        <div style="text-align: center;">
-		            <img src="./projects/35.JPG" width=70%>
-		        </div>
-		    </td>
-		</tr>
-		
-		<!-- 36 -->
-		<tr>
-		    <td style="padding:10px;width:100%;vertical-align:top;text-align:justify;">
-				<a href="https://www.sciencedirect.com/science/article/abs/pii/S0262885618300155">
-					<papertitle><b>Reading Car License Plates Using Deep Neural Networks</b></papertitle>
-				</a>
-				<br>Hui Li, Peng Wang,<b>Mingyu You*</b>Chunhua Shen
-				<br>
-				<em>Image and Vision Computing</em>, 2018
-				<br>
-				<a href="https://www.sciencedirect.com/science/article/abs/pii/S0262885618300155">paper</a>
-				<br>
-				<br>
-				<b>Abstract</b> In this work, we tackle the problem of car license plate detection and recognition in natural scene images based on the powerful deep neural networks (DNNs). Firstly, a 37-class convolutional neural network (CNN) is trained to detect characters in an image, which leads to a high recall compared with a binary text/non-text classifier. False positives are then eliminated effectively by a plate/non-plate CNN classifier. As to the license plate recognition, we regard the character string reading as a sequence labeling problem. Recurrent neural networks (RNNs) with long short-term memory (LSTM) are trained to recognize the sequential features extracted from the whole license plate via CNNs. The main advantage of this approach is that it is segmentation free. By exploring contextual information and avoiding errors caused by segmentation, this method performs better than conventional methods and achieves state-of-the-art recognition accuracy.
-				<p></p>
-		        <br>
-		        <div style="text-align: center;">
-		            <img src="./projects/36.JPG" width=70%>
-		        </div>
-		    </td>
-		</tr>
-		
-		<!-- 37 -->
-		<tr>
-		    <td style="padding:10px;width:100%;vertical-align:top;text-align:justify;">
-				<a href="https://www.sciencedirect.com/science/article/abs/pii/S0262885618300155">
-					<papertitle><b>Sequential data feature selection for human motion recognition via Markov blanket</b></papertitle>
-				</a>
-				<br>Hongjun Zhou, <b>Mingyu You*</b>, Lei Liu, Chao Zhuang
-				<br>
-				<em>Pattern Recognition Letters</em>, 2017
-				<br>
-				<a href="https://www.sciencedirect.com/science/article/abs/pii/S0262885618300155">paper</a>
-				<br>
-				<br>
-				<b>Abstract</b> Human motion recognition, a key area in human - machine interface research, often represents motion through time - sequential sensor data. This paper focuses on using feature - selected sequential Kinect skeleton data for such recognition. Features are extracted from body joint Cartesian coordinates, but sensor errors and other uncertainties introduce irrelevant and error features in the data. While feature selection for static data like images is common, little research exists for sequential data models like HMM, CRF, and DBN. We propose a novel method combining a Markov blanket with the wrapper method for sequential data feature selection. Evaluated with four sets of open human motion data and two learners (HMM and DBN), the algorithm shows higher recognition accuracy than traditional and non - feature - selection models.
-				<p></p>
-		        <br>
-		        <div style="text-align: center;">
-		            <img src="./projects/37.JPG" width=70%>
-		        </div>
-		    </td>
-		</tr>
-		
-		<!-- 38 -->
-		<tr>
-		    <td style="padding:10px;width:100%;vertical-align:top;text-align:justify;">
-				<a href="https://www.sciencedirect.com/science/article/abs/pii/S1746809416301835">
-					<papertitle><b>Cough Detection by Ensembling Multiple Frequency Subband Features</b></papertitle>
-				</a>
-				<br><b>Mingyu You*</b>, Zeqin Liu, Chong Chen, Jiaming Liu, Xianghuai Xu, Zhongmin Qiu
-				<br>
-				<em>Biomedical Signal Processing and Control</em>, 2017
-				<br>
-				<a href="https://www.sciencedirect.com/science/article/abs/pii/S1746809416301835">paper</a>
-				<br>
-				<br>
-				<b>Abstract</b> Cough, a common respiratory symptom, can be objectively evaluated by pattern recognition for cough diagnosis and monitoring. Cough detection, crucial for this, aims to identify cough events in audio. Previous cough - detection feature - extraction methods, mostly from speech recognition, overlook the distinct energy - distribution of coughs compared to speech. This study uses a gammatone filterbank to obtain subband features. Support Vector Machine (SVM), K - Nearest Neighbors (KNN), and Random Forest (RF) are trained with these features, and an ensemble method combines their outputs. Experiments on synthetic and real data (from 18 respiratory patients, expert - annotated) show that integrating multiple subbands boosts cough - detection performance. Our method improves accuracy by 3.2% compared to others.
-				<p></p>
-		        <br>
-		        <div style="text-align: center;">
-		            <img src="./projects/38.JPG" width=70%>
-		        </div>
-		    </td>
-		</tr>
-		
-		<!-- 39 -->
-		<tr>
-		    <td style="padding:10px;width:100%;vertical-align:top;text-align:justify;">
-				<a href="https://ietresearch.onlinelibrary.wiley.com/doi/full/10.1049/iet-spr.2016.0341">
-					<papertitle><b>A Novel Feature Extraction Method for Cough Detection using Non-Negative Matrix Factorization</b></papertitle>
-				</a>
-				<br><b>Mingyu You*</b>, Huihui Wang, Chong Chen, Jiaming Liu, Xianghuai Xu, Zhongmin Qiu
-				<br>
-				<em>IET Signal Processing</em>, 2017
-				<br>
-				<a href="https://ietresearch.onlinelibrary.wiley.com/doi/full/10.1049/iet-spr.2016.0341">paper</a>
-				<br>
-				<br>
-				<b>Abstract</b> Cough, a prevalent respiratory symptom, requires objective evaluation of its quantity and intensity via cough detection for diagnosis and monitoring. Cough detection extracts cough event boundaries from audio. Previous cough - detection feature - extraction methods, mainly from speech recognition, fail to account for the distinct, wide - spread energy spectrum of coughs compared to speech. This study uses non - negative matrix factorisation (NMF) to extract spectral structures from signals, revealing differences between coughs and other audios. The cough - derived spectral structures serve as more suitable filter banks for feature extraction than manual designs, and parameterising them optimises the NMF - based method. Experiments on real data show the NMF - based method holds great potential for enhancing cough - detection performance.
-			    	<p></p>
-		        <br>
-		        <div style="text-align: center;">
-		            <img src="./projects/39.JPG" width="40%" height="auto">
-		        </div>
-		    </td>
-		</tr>
-		
-		<!-- 40 -->
-		<tr>
-		    <td style="padding:10px;width:100%;vertical-align:top;text-align:justify;">
-				<a href="https://ietresearch.onlinelibrary.wiley.com/doi/full/10.1049/iet-spr.2016.0341">
-					<papertitle><b>ISMAC: An Intelligent System for Customized Clinical Case Management and Analysis</b></papertitle>
-				</a>
-				<br><b>Mingyu You*</b>,  Chong Chen, Guozheng Li, Shixing Yan, Sheng Sun, Xueqiang Zeng, Qingce Zhao, Liaoyu Xu, Suying Huang
-				<br>
-				<em>The Scientific World Journal</em>, 2015
-				<br>
-				<a href="https://ietresearch.onlinelibrary.wiley.com/doi/full/10.1049/iet-spr.2016.0341">paper</a>
-				<br>
-				<br>
-				<b>Abstract</b> Clinical cases are fundamental for Traditional Chinese Medicine (TCM) research, containing valuable knowledge from experienced practitioners. Given their unique clinical patterns and diagnosis ideas, archiving these cases and extracting knowledge is crucial yet challenging. The ISMAC (Intelligent System for Management and Analysis of Clinical Cases in TCM) system is developed. It constructs customized templates based on each TCM specialist's clinical features, including standard and expert - standard symptoms, diseases, syndromes, and Chinese Medicine Formulas (CMF). These templates help archive cases while maintaining their original traits. The system also incorporates various data analysis and mining methods like Basic Analysis, Association Rule, etc. With a flexible retrieval mechanism, ISMAC is a powerful tool for clinical case analysis and knowledge discovery in TCM.
-				<p></p>
-		        <br>
-		        <div style="text-align: center;">
-		            <img src="./projects/40.jpg" width=70%>
-		        </div>
-		    </td>
-		</tr>
-		
-		<!-- 41 -->
-		<tr>
-		    <td style="padding:10px;width:100%;vertical-align:top;text-align:justify;">
-				<a href="https://link.springer.com/article/10.1186/1472-6947-15-S4-S2">
-					<papertitle><b>Cough Event Classification by Pretrained Deep Neural Network</b></papertitle>
-				</a>
-				<br>Jia-Ming Liu,<b>Mingyu You*</b>, Zheng Wang, Guozheng Li, Xianghuai Xu, Zhongmin Qiu
-				<br>
-				<em>BMC Medical Informatics and Decision Making</em>, 2015
-				<br>
-				<a href="https://link.springer.com/article/10.1186/1472-6947-15-S4-S2">paper</a>
-				<br>
-				<br>
-				<b>Abstract</b> Cough is a crucial symptom in respiratory diseases, and an accurate cough monitor is desired. This paper applies a pretrained deep neural network (DNN) to cough classification, a key step in cough monitoring. The DNN model is created through pretraining and fine - tuning, followed by a Hidden Markov Model (HMM) decoder for audio signal temporal information. Unsupervised pretraining of a deep belief network provides good DNN initialization. Fine - tuning uses backpropagation to predict HMM state observation probabilities, with HMM states from force - alignment with GMM - HMM on training samples. Three cough HMMs and one non - cough HMM model coughs and non - coughs. The final decision is based on Viterbi decoding. Results show that the HMM - DNN outperforms the conventional GMM - HMM framework in cough classification.
-				<p></p>
-		        <br>
-		        <div style="text-align: center;">
-		            <img src="./projects/41.JPG" width=70%>
-		        </div>
-		    </td>
-		</tr>
-		
-		<!-- 42 -->
-		<tr>
-		    <td style="padding:10px;width:100%;vertical-align:top;text-align:justify;">
-				<a href="https://ieeexplore.ieee.org/abstract/document/7359724">
-					<papertitle><b>Audio Signals Encoding for Cough Classification Using Convolutional Neural Networks: A Comparative Study</b></papertitle>
-				</a>
-				<br>Hui-Hui Wang, Jiaming Liu,<b>Mingyu You*</b>, Guozheng Li
-				<br>
-				<em>IEEE International Conference Bioinformatics and Biomedicine (BIBM)</em>, 2015
-				<br>
-				<a href="https://ieeexplore.ieee.org/abstract/document/7359724">paper</a>
-				<br>
-				<br>
-				<b>Abstract</b> Cough detection has considerable clinical value, which can provide an objective basis for assessment and diagnosis of respiratory diseases. Motivated by the great achievements of convolutional neural networks (CNNs) in recent years, we adopted 5 different ways to encode audio signals as images and treated them as the input of CNNs, so that image processing technology could be applied to analyze audio signals. In order to explore the optimal audio signals encoding method, we performed comparative experiments on medical dataset containing 70000 audio segments from 26 patients. Experimental results show that RASTA-PLP spectrum is the best method to encode audio signals as images with respect to cough classification task, which gives an average accuracy of 0.9965 in 200 iterations on test batches and a F1-score of 0.9768 on samples re-sampled from the test set. Therefore, the image processing based method is shown to be a promising choice for the process of audio signals.
-				<p></p>
-		        <br>
-		    </td>
-		</tr>
-		
-		<!-- 43 -->
-		<tr>
-		    <td style="padding:10px;width:100%;vertical-align:top;text-align:justify;">
-				<a href="https://ieeexplore.ieee.org/abstract/document/7419077">
-					<papertitle><b>Markov blanket based sequential data feature selection for human motion recognition</b></papertitle>
-				</a>
-				<br>Chao Zhuang, Hongjun Zhou, <b>Mingyu You*</b>, Lei Liu
-				<br>
-				<em>IEEE International Conference on Robotics & Biomimetics (ROBIO)</em>, 2015
-				<br>
-				<a href="https://ieeexplore.ieee.org/abstract/document/7419077">paper</a>
-				<br>
-				<br>
-				<b>Abstract</b> Human motion recognition, a key area in human - machine interface research, represents motions through time - sequential sensor data. This paper focuses on human motion recognition using feature - selected sequential Kinect skeleton data. Features are extracted from body joint Cartesian coordinates for machine learning. Due to sensor errors and other uncertainties, original data has irrelevant and error features. While feature selection for static data like images is common, little research exists for sequential data models such as HMM, CRF, and DBN. We propose a novel method combining a Markov blanket with the wrapper method for sequential data feature selection. Evaluated with four human motion datasets and two learners (HMM and DBN), the algorithm shows higher recognition accuracy than traditional and non - feature - selection methods.
-				<p></p>
-		        <br>
-		        <div style="text-align: center;">
-		            <img src="./projects/43.JPG" width=70%>
-		        </div>
-		    </td>
-		</tr>
+                    <div id="navigation">
+                        <p>Jump to:</p>
+                        <ul>
+                            <li><a href="#robotic-action-learning">Robotic Action Learning</a></li>
+                            <li><a href="#image-3d-content-generation">Image & 3D Content Generation</a></li>
+                            <li><a href="#visual-perception">Visual Perception</a></li>
+                            <li><a href="#model quantization and lightweight deployment based on FPGA platform">Model quantization and lightweight deployment based on FPGA platform</a></li>
+                            <li><a href="#others">Others</a></li>
+                        </ul>
+                    </div>
+                    <p style="text-align:justify">
+                        <font size="6px" id="robotic-action-learning">Robotic Action Learning:</font>
+                        <table id="pubList" border="0" cellpadding="0" width="100%" style="border-spacing: 10 18px; line-height:16pt; border: 0px;">
+                            <!-- 01 -->
+                            <tr>
+                                <td style="padding:10px;width:100%;vertical-align:top;text-align:justify;">
+                                    <a href="https://ieeexplore.ieee.org/abstract/document/10752365">
+                                        <papertitle><b>Closely Cooperative Multi-Agent Reinforcement Learning Based on Intention Sharing and Credit Assignment</b></papertitle>
+                                    </a>
+                                    <br> Hao Fu, <b>Mingyu You*</b>, Hongjun Zhou, Bin He
+                                    <br>
+                                    <em>IEEE Robotics and Automation Letters</em>, 2024
+                                    <br>
+                                    <a href="https://ieeexplore.ieee.org/abstract/document/10752365">paper</a>/<a href="videos/01_fh.mp4">video</a>
+                                    <br>
+                                    <b>Abstract </b>In this paper, we propose a closely collaborative multi-agent reinforcement learning(CC-MARL) algorithm based on intention sharing and credit assignment. We use a two-phase training to learn intention
+                                    encoding and intention sharing respectively, and decompose joint action values based on counterfactual baseline ideas. We deployed scenarios in both simulated and real environments with various sizes, numbers of boxes,
+                                    and numbers of agents and compare CC-MARL with various classical MARL algorithms on box-pushing tasks of different map scales in simulation, demonstrating the state-of-the-art of our method.
+                                    <p></p>
+                                    <br>
+                                    <div style="text-align: center;">
+                                        <img src="./projects/01_fh.JPG" width=70%>
+                                    </div>
+                                </td>
+                            </tr>
+                            <!-- 05 -->
+                            <tr>
+                                <td style="padding:10px;width:100%;vertical-align:top;text-align:justify;">
+                                    <a href="https://ieeexplore.ieee.org/abstract/document/10543266">
+                                        <papertitle><b>Contrast, Imitate, Adapt: Learning Robotic Skills from Raw Human Videos</b></papertitle>
+                                    </a>
+                                    <br>Zhifeng Qian,<b>Mingyu You*</b>,Hongjun Zhou, Xuanhui Xu, Hao Fu, Jinzhe Xue, Bin He
+                                    <br>
+                                    <em>IEEE Transactions on Automation Science and Engineering</em>, 2024
+                                    <br>
+                                    <a href="https://ieeexplore.ieee.org/abstract/document/10543266">paper</a>/<a href="videos/05_qzf.mp4">video</a>
+                                    <br>
+                                    <br>
+                                    <b>Abstract</b> We propose a three-stage skill learning framework denoted as Contrast-Imitate-Adapt (CIA). An interaction-aware alignment transformer is proposed to learn task priors by temporally aligning video pairs.
+                                    Then a trajectory generation model is used to learn action priors. To further adapt to diverse scenarios, we propose a two-stage policy improvement method by initialization and interaction, the Inversion-Interaction
+                                    method is designed to initialize coarse trajectories and refine them by limited interaction. In addition, CIA introduces an optimization method based on semantic directions of trajectories for interaction security
+                                    and sample efficiency. The alignment distances computed by IAAformer are used as the rewards.
+                                    <p></p>
+                                    <br>
+                                    <div style="text-align: center;">
+                                        <img src="./projects/05_qzf.jpg" width=70%>
+                                    </div>
+                                </td>
+                            </tr>
+                            <!-- 07 -->
+                            <tr>
+                                <td style="padding:10px;width:100%;vertical-align:top;text-align:justify;">
+                                    <a href="https://www.cambridge.org/core/journals/robotica/article/robot-imitation-from-multimodal-observation-with-unsupervised-crossmodal-representation/6B8AA9AC5470D433625BB7F795F091D6">
+                                        <papertitle><b>Robot Imitation from Multimodal Observation with Unsupervised Cross-Modal Representation</b></papertitle>
+                                    </a>
+                                    <br>Xuanhui Xu,<b>Mingyu You*</b>,Hongjun Zhou, Bin He
+                                    <br>
+                                    <em>Robotica</em>, 2024
+                                    <br>
+                                    <a href="https://www.cambridge.org/core/journals/robotica/article/robot-imitation-from-multimodal-observation-with-unsupervised-crossmodal-representation/6B8AA9AC5470D433625BB7F795F091D6">paper</a> / <a href="videos/07_xxh.mp4">video</a>
+                                    <br>
+                                    <br>
+                                    <b>Abstract</b> In this article, we propose a new approach for robot IfO via multimodal observations. Different modalities describe the same information from different sides, which can be used to design an unsupervised
+                                    proxy task. Our approach contains two modules: the unsupervised cross-modal representation (UCMR) module and a self-behavioral cloning (self-BC)-based RL module. The UCMR module learns to extract task-relevant representations
+                                    via a multimodal unsupervised proxy task. The Self-BC for further offline policy optimization collects successful experiences during the RL training.
+                                    <p></p>
+                                    <br>
+                                    <div style="text-align: center;">
+                                        <img src="./projects/07_xxh.jpg" width=70%>
+                                    </div>
+                                </td>
+                            </tr>
+                            <!-- 10 -->
+                            <tr>
+                                <td style="padding:10px;width:100%;vertical-align:top;text-align:justify;">
+                                    <a href="https://ieeexplore.ieee.org/abstract/document/10355013">
+                                        <papertitle><b>A Modular Framework for Robot Embodied Instruction Following by Large Language Model</b></papertitle>
+                                    </a>
+                                    <br>Long Li, Hongjun Zhou,<b>Mingyu You*</b>
+                                    <br>
+                                    <em>IEEE International Conference on Robotics & Biomimetics (ROBIO)</em>, 2023
+                                    <br>
+                                    <a href="https://ieeexplore.ieee.org/abstract/document/10355013">paper</a> /<a href="https://leaderboard.allenai.org/alfred/submissions/public">submissions and results</a>
+                                    <br>
+                                    <br>
+                                    <b>Abstract</b> To address challenges in robot task scheduling for embodied instruction following (EIF) in the ALFRED benchmark, we propose REIF, a modular framework integrating visual perception, language understanding,
+                                    semantic search, and closed container prediction. By enhancing semantic reasoning and object interaction capabilities, REIF achieves state-of-the-art performance on unseen scenes with 50.83% accuracy and 23.06% efficiency,
+                                    winning the ALFRED competition.
+                                    <p></p>
+                                    <br>
+                                    <div style="text-align: center;">
+                                        <img src="./projects/10.JPG" width=70%>
+                                    </div>
+                                </td>
+                            </tr>
+                            <!-- 12 -->
+                            <tr>
+                                <td style="padding:10px;width:100%;vertical-align:top;text-align:justify;">
+                                    <a href="https://www.sciencedirect.com/science/article/pii/S0921889023001914">
+                                        <papertitle><b>Task Parse Tree: Learning Task Policy from Videos with Task-irrelevant Components</b></papertitle>
+                                    </a>
+                                    <br>Weihao Wang,<b>Mingyu You*</b>
+                                    <br>
+                                    <em>Robotics and Autonomous Systems</em>, 2023
+                                    <br>
+                                    <a href="https://www.sciencedirect.com/science/article/pii/S0921889023001914">paper</a> / <a href="videos/demo_planning_independently.mp4">video:planning_independently</a>/ <a href="videos/demo_planning_interactively.mp4">video:planning_interactively</a>
+                                    <br>
+                                    <br>
+                                    <b>Abstract</b> This work aims to automatically learn interpretable task policies (explicitly capturing action preconditions and task composition) from videos. Key challenges include handling task-irrelevant components
+                                    (e.g., unoperated objects or minor actions) that introduce disruptive visual relations and misleading task logic, which existing methods fail to address jointly. Solution: Propose a Task Parse Tree (TPT) representation,
+                                    leveraging a spatio-temporal graph (STG) to identify critical object attribute changes and a conjugate action graph (CAG) to model action execution logic, thereby isolating task-relevant actions with clear preconditions
+                                    and order. Results: TPT achieves accurate and interpretable task planning in real-world scenarios (e.g., "Make Tea"), outperforming baselines in handling task-irrelevant noise across diverse settings.
+                                    <p></p>
+                                    <br>
+                                    <div style="text-align: center;">
+                                        <img src="./projects/12_wwh.jpg" width=70%>
+                                    </div>
+                                </td>
+                            </tr>
+                            <!-- 13 -->
+                            <tr>
+                                <td style="padding:10px;width:100%;vertical-align:top;text-align:justify;">
+                                    <a href="https://www.sciencedirect.com/science/article/abs/pii/S0921889023001057">
+                                        <papertitle><b>Robot learning from human demonstrations with inconsistent contexts</b></papertitle>
+                                    </a>
+                                    <br>Zhifeng Qian,<b>Mingyu You*</b>, Hongjun Zhou, Xuanhui Xu, Bin He
+                                    <br>
+                                    <em>Robotics and Autonomous Systems</em>, 2023
+                                    <br>
+                                    <a href="https://www.sciencedirect.com/science/article/abs/pii/S0921889023001057">paper</a> / <a href="videos/13_qzf.mp4">video</a>
+                                    <br>
+                                    <br>
+                                    <b>Abstract</b> In this paper, we propose a novel imitation learning framework to enable robots to reproduce behavior by watching human demonstrations with inconsistent contexts, such as different viewpoints, operators,
+                                    backgrounds, object appearances and positions. Specifically, our framework consists of three networks: flow-based viewpoint transformation network (FVTrans), robot2human alignment network (RANet) and inverse dynamics
+                                    network (IDNet). First, FVTrans transforms various third-person demonstrations into the fixed robot execution view. With a meta learning strategy, FVTrans can quickly adapt to novel contexts with few samples. Then,
+                                    RANet aligns the human and the robot at the feature level. Therefore, the demonstration feature can be used as a subgoal of the current moment. Finally, IDNet predicts the joint angles of the robot.
+                                    <p></p>
+                                    <br>
+                                    <div style="text-align: center;">
+                                        <img src="./projects/13_qzf.JPG" width=70%>
+                                    </div>
+                                </td>
+                            </tr>
+                            <!-- 14 -->
+                            <tr>
+                                <td style="padding:10px;width:100%;vertical-align:top;text-align:justify;">
+                                    <a href="https://ieeexplore.ieee.org/abstract/document/10155203">
+                                        <papertitle><b>Goal-Conditioned Reinforcement Learning with Disentanglement-based Reachability Planning</b></papertitle>
+                                    </a>
+                                    <br>Zhifeng Qian,<b>Mingyu You*</b>Hongjun Zhou, Xuanhui Xu, Bin He
+                                    <br>
+                                    <em>IEEE Robotics and Automation Letters</em>, 2023
+                                    <br>
+                                    <a href="https://ieeexplore.ieee.org/abstract/document/10155203">paper</a> / <a href="videos/14_qzf.mp4">video</a>
+                                    <br>
+                                    <br>
+                                    <b>Abstract</b> In the letter, we propose a goal-conditioned RL algorithm combined with Disentanglement-based Reachability Planning (REPlan) to solve temporally extended tasks. In REPlan, a Disentangled Representation
+                                    Module (DRM) is proposed to learn compact representations which disentangle robot poses and object positions from high-dimensional observations in a self-supervised manner. A simple Reachability Discrimination Module
+                                    (REM) is also designed to determine the temporal distance of subgoals. Moreover, REM computes intrinsic bonuses to encourage the collection of novel states for training.
+                                    <p></p>
+                                    <br>
+                                    <div style="text-align: center;">
+                                        <img src="./projects/14_qzf.JPG" width=70%>
+                                    </div>
+                                </td>
+                            </tr>
+                            <!-- 15 -->
+                            <tr>
+                                <td style="padding:10px;width:100%;vertical-align:top;text-align:justify;">
+                                    <a href="https://ieeexplore.ieee.org/abstract/document/10149371">
+                                        <papertitle><b>GAN-Based Editable Movement Primitive from High-Variance Demonstrations</b></papertitle>
+                                    </a>
+                                    <br>Xuanhui Xu,<b>Mingyu You*</b>Hongjun Zhou, Bin He
+                                    <br>
+                                    <em>IEEE Robotics and Automation Letters</em>, 2023
+                                    <br>https://github.com/Xu-Xuanhui/EditMP
+                                    <a href="https://ieeexplore.ieee.org/abstract/document/10149371">paper</a> / <a href="videos/15_xxh.mp4">video</a>/ <a href="https://github.com/Xu-Xuanhui/EditMP">code</a>
+                                    <br>
+                                    <br>
+                                    <b>Abstract</b> We propose a novel transformer and GAN-based Editable Movement Primitive (EditMP), which can learn movements from high-variance demonstrations. These demonstrations include the movements in the task
+                                    scenes with various target positions and obstacles. After movement learning, EditMP can controllably and interpretably edit the learned movements for new task scenes. Notably, EditMP enables all robot joints rather
+                                    than the robot end-effector to avoid hitting complex obstacles.
+                                    <p></p>
+                                    <br>
+                                    <div style="text-align: center;">
+                                        <img src="./projects/15_xxh.JPG" width=70%>
+                                    </div>
+                                </td>
+                            </tr>
+                            <!-- 21 -->
+                            <tr>
+                                <td style="padding:10px;width:100%;vertical-align:top;text-align:justify;">
+                                    <a href="https://ieeexplore.ieee.org/abstract/document/9944073">
+                                        <papertitle><b>Robot Imitation Learning from Image-only Observation without Real world Interaction</b></papertitle>
+                                    </a>
+                                    <br>Xuanhui Xu,<b>Mingyu You*</b>, Hongjun Zhou, Bin He
+                                    <br>
+                                    <em>IEEE/ASME Transactions on Mechatronics</em>, 2023
+                                    <br>
+                                    <a href="https://ieeexplore.ieee.org/abstract/document/9944073">paper</a>/ <a href="videos/21_xxh.mp4">vidio</a>
+                                    <br>
+                                    <br>
+                                    <b>Abstract</b> This article proposes the LION net (Learning from Image-only Observation net), which learns action from image-only demonstrations, e.g., a video of a human demonstrating a task, and reduces the number
+                                    of the robot–environment interaction to zero in the real world. It is expected to be a realistic solution for real-world robot LfO. The LION net comprises two modules: 1) a domain transfer module that bridges the gap
+                                    between the simulator and the real world and an RL-based control module that utilizes images as input to learning a task. The LION net affords the robot to imitate an action from the image-only human demonstration in
+                                    the simulator and perform the learned action in the real world without additional training.
+                                    <p></p>
+                                    <br>
+                                    <div style="text-align: center;">
+                                        <img src="./projects/21_xxh.JPG" width=70%>
+                                    </div>
+                                </td>
+                            </tr>
+                            <!-- 24 -->
+                            <tr>
+                                <td style="padding:10px;width:100%;vertical-align:top;text-align:justify;">
+                                    <a href="https://ieeexplore.ieee.org/abstract/document/9677980">
+                                        <papertitle><b>Weakly Supervised Disentangled Representation for Goal-conditioned Reinforcement Learning</b></papertitle>
+                                    </a>
+                                    <br>Zhifeng Qian, <b>Mingyu You*</b>,Hongjun Zhou, Bin He
+                                    <br>
+                                    <em>International Conference on Robotics and Automation (ICRA)</em>, 2022
+                                    <br>
+                                    <a href="https://ieeexplore.ieee.org/abstract/document/9677980">paper</a>/<a href="vedios/24_qzf.mp4">vedio</a>
+                                    <br>
+                                    <br>
+                                    <b>Abstract</b> We propose a skill learning framework DR-GRL that aims to improve the sample efficiency and policy generalization by combining the Disentangled Representation learning and Goal-conditioned visual Reinforcement
+                                    Learning. In a weakly supervised manner, we propose a Spatial Transform AutoEncoder (STAE) to learn an interpretable and controllable representation in which different parts correspond to different object attributes
+                                    (shape, color, position). Due to the high controllability of the representations, STAE can simply recombine and recode the representations to generate unseen goals for agents to practice themselves. The manifold structure
+                                    of the learned representation maintains consistency with the physical position, which is beneficial for reward calculation.
+                                    <p></p>
+                                    <br>
+                                    <div style="text-align: center;">
+                                        <img src="./projects/24_qzf.JPG" width=50%>
+                                    </div>
+                                </td>
+                            </tr>
+                            <!-- 34 -->
+                            <tr>
+                                <td style="padding:10px;width:100%;vertical-align:top;text-align:justify;">
+                                    <a href="https://ieeexplore.ieee.org/abstract/document/8961570">
+                                        <papertitle><b>Simultaneous multi-task determination and manipulation with vision-based self-reasoning network</b></papertitle>
+                                    </a>
+                                    <br>Zhifeng Qian, Xuanhui Xu,<b>Mingyu You*</b>,Hongjun Zhou
+                                    <br>
+                                    <em>IEEE International Conference on Robotics and Biomimetics, ROBIO 2019, EI会议</em>
+                                    <br>
+                                    <a href="https://ieeexplore.ieee.org/abstract/document/8961570">paper</a>
+                                    <br>
+                                    <br>
+                                    <b>Abstract</b> This paper proposes a muti-task self-reasoning neural network (MSRnet), which is an end-to-end imitation learning framework consisting of a self-reasoning module and a control module. The self-reasoning
+                                    module supports the task objective inference, while the control module predicts the robot motor angles for manipulation. With multi-task learning, MSRnet enables robots to accomplish multiple tasks with one model without
+                                    updating parameters.
+                                    <p></p>
+                                    <br>
+                                    <div style="text-align: center;">
+                                        <img src="./projects/34.JPG" width=70%>
+                                    </div>
+                                </td>
+                            </tr>
+                            <!-- 37 -->
+                            <tr>
+                                <td style="padding:10px;width:100%;vertical-align:top;text-align:justify;">
+                                    <a href="https://www.sciencedirect.com/science/article/abs/pii/S0262885618300155">
+                                        <papertitle><b>Sequential data feature selection for human motion recognition via Markov blanket</b></papertitle>
+                                    </a>
+                                    <br>Hongjun Zhou, <b>Mingyu You*</b>, Lei Liu, Chao Zhuang
+                                    <br>
+                                    <em>Pattern Recognition Letters</em>, 2017
+                                    <br>
+                                    <a href="https://www.sciencedirect.com/science/article/abs/pii/S0262885618300155">paper</a>
+                                    <br>
+                                    <br>
+                                    <b>Abstract</b> Human motion recognition, a key area in human - machine interface research, often represents motion through time - sequential sensor data. This paper focuses on using feature - selected sequential Kinect
+                                    skeleton data for such recognition. Features are extracted from body joint Cartesian coordinates, but sensor errors and other uncertainties introduce irrelevant and error features in the data. While feature selection
+                                    for static data like images is common, little research exists for sequential data models like HMM, CRF, and DBN. We propose a novel method combining a Markov blanket with the wrapper method for sequential data feature
+                                    selection. Evaluated with four sets of open human motion data and two learners (HMM and DBN), the algorithm shows higher recognition accuracy than traditional and non - feature - selection models.
+                                    <p></p>
+                                    <br>
+                                    <div style="text-align: center;">
+                                        <img src="./projects/37.JPG" width=70%>
+                                    </div>
+                                </td>
+                            </tr>
+                            <!-- 43 -->
+                            <tr>
+                                <td style="padding:10px;width:100%;vertical-align:top;text-align:justify;">
+                                    <a href="https://ieeexplore.ieee.org/abstract/document/7419077">
+                                        <papertitle><b>Markov blanket based sequential data feature selection for human motion recognition</b></papertitle>
+                                    </a>
+                                    <br>Chao Zhuang, Hongjun Zhou, <b>Mingyu You*</b>, Lei Liu
+                                    <br>
+                                    <em>IEEE International Conference on Robotics & Biomimetics (ROBIO)</em>, 2015
+                                    <br>
+                                    <a href="https://ieeexplore.ieee.org/abstract/document/7419077">paper</a>
+                                    <br>
+                                    <br>
+                                    <b>Abstract</b> Human motion recognition, a key area in human - machine interface research, represents motions through time - sequential sensor data. This paper focuses on human motion recognition using feature - selected
+                                    sequential Kinect skeleton data. Features are extracted from body joint Cartesian coordinates for machine learning. Due to sensor errors and other uncertainties, original data has irrelevant and error features. While
+                                    feature selection for static data like images is common, little research exists for sequential data models such as HMM, CRF, and DBN. We propose a novel method combining a Markov blanket with the wrapper method for
+                                    sequential data feature selection. Evaluated with four human motion datasets and two learners (HMM and DBN), the algorithm shows higher recognition accuracy than traditional and non - feature - selection methods.
+                                    <p></p>
+                                    <br>
+                                    <div style="text-align: center;">
+                                        <img src="./projects/43.JPG" width=70%>
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
+                        <p></p>
 
-        </table>
-		<table id="pubList" border="0" cellpadding="0" width="100%" style="border-spacing: 10 18px; line-height:16pt; border: 0px;">
-			<td style="padding:10px;width:75%;vertical-align:top;text-align:justify;">
-			(1)	尤鸣宇;韩煊; 一种基于伪标签噪声过滤的小样本半监督学习方法和装置；2022-1-7，中国，ZL 2022 1 0015285.0
-			<br>(2)	钱智丰;尤鸣宇; 一种基于无监督图像编辑的多目标强化学习方法；2022-4-28，中国，ZL 2022 1 0469373.8 
-			<br>(3)	尤鸣宇;韩煊; 一种基于无监督多模型融合的时序任务预测方法和装置；2022-1-21，中国，ZL 2022 1 0071568.7 
-			<br>(4)	尤鸣宇;周虹旭;钱智丰;周洪钧; 基于第三视角可变主体演示视频的机械臂模仿学习方法, 2021-02-26, 中国, ZL 2021 1 0218017.4
-			<br>(5)	尤鸣宇;温佳豪;周洪钧; 基于多模态信息的机器人准确抓取方法及计算机可读介质, 2021-02-26, 中国, ZL 2021 1 0218016.X
-			<br>(6)	尤鸣宇;王伟昊;周洪钧; 一种基于选择性知识传递的双特长教师模型知识融合方法, 2021-02-26, 中国, ZL 2021 1 0218021.0 
-			<br>(7)	尤鸣宇;钱智丰;周洪钧; 一种基于语言引导的机械臂动作模仿学习系统, 2021-02-26, 中国, ZL 2021 1 0217079.3 
-			<br>(8)	尤鸣宇;苏志成;周洪钧; 一种基于动态模型强化学习算法的倒水服务机器人, 2021-02-26, 中国, ZL 2021 1 0217090.X
-			<br>(9)	尤鸣宇;徐炫辉;周洪钧; 一种基于模仿学习的服务机器人定量倒水算法, 2021-02-26, 中国, ZL 2021 1 0217089.7 
-			<br>(10) 李由;尤鸣宇; 一种经过压缩的咳嗽自动检测方法及嵌入式设备, 2020-12-30, 中国, ZL 2020 1 1617737.X
-			<br>(11) 张佳伟;尤鸣宇; 一种使用残差注意力机制网络的同步定位与建图方法, 2019-11-28, 中国, ZL 2019 1 1190243.5
-			<br>(12) 尤鸣宇;沈春华;张欣彧; 基于triplet深度二值网络的快速人脸检索方法, 2018-01-11, 中国, ZL 2018 1 0026049.2
-			<br>(13) 尤鸣宇;沈春华;徐杨柳; 一种基于cnn和卷积LSTM网络的行人再识别方法, 2016-06-21, 中国, ZL 2016 1 0450898.1
-			<br>(14) 刘泽琴;尤鸣宇; 一种基于加速度计的咳嗽判别系统, 2015-06-09, 中国, ZL 2015 2 0393651.1
-			</td>
-		</table>
+                        <p style="text-align:justify">
+                            <font size="6px" id="image-3d-content-generation">Image & 3D Content Generation:</font>
+                            <table id="pubList" border="0" cellpadding="0" width="100%" style="border-spacing: 10 18px; line-height:16pt; border: 0px;">
+                                <!-- 02 -->
+                                <tr>
+                                    <td style="padding:10px;width:100%;vertical-align:top;text-align:justify;">
+                                        <a href="https://dl.acm.org/doi/full/10.1145/3702226">
+                                            <papertitle><b>Physical-aware 3D Shape Understanding for Finishing Incomplete Assembly</b></papertitle>
+                                        </a>
+                                        <br> Weihao Wang, <b>Mingyu You*</b>, Hongjun Zhou, Bin He
+                                        <br>
+                                        <em>ACM Transactions on Graphics</em>, 2024
+                                        <br>
+                                        <a href="https://dl.acm.org/doi/full/10.1145/3702226">paper</a>/<a href="videos/02_wwh.mp4">video</a>
+                                        <br>
+                                        <br>
+                                        <b>Abstract </b>This work introduces PhysFiT, a f·ramework addressing 3D assembly completion (repairing broken furniture by identifying missing parts and ensuring physical compliance). Challenges lie in satisfying
+                                        physical constraints (connectivity, stability, symmetry) to avoid impractical yet visually plausible assemblies. Solutions include attention-based part relation modeling, connection analysis, simulation-free stability
+                                        optimization, and symmetry consistency enforcement. Results demonstrate PhysFiT’s superiority in generating geometrically and physically valid assemblies for both part assembly and novel completion tasks.
+                                        <p></p>
+                                        <br>
+                                        <div style="text-align: center;">
+                                            <img src="./projects/02_wwh.jpg" width=70%>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <!-- 03 -->
+                                <tr>
+                                    <td style="padding:10px;width:100%;vertical-align:top;text-align:justify;">
+                                        <a href="https://dl.acm.org/doi/abs/10.1145/3664647.3681678">
+                                            <papertitle><b>Scene Diffusion: Text-driven Scene Image Synthesis Conditioning on a Single 3D Model</b></papertitle>
+                                        </a>
+                                        <br> Xuan Han,Yihao Zhao,<b>Mingyu You*</b>
+                                        <br>
+                                        <em>ACM MM oral presentation (3.87%)</em>, 2024
+                                        <br>
+                                        <a href="https://dl.acm.org/doi/abs/10.1145/3664647.3681678">paper</a>/<a href="videos/03_hx.mp4">video</a>
+                                        <br>
+                                        <br>
+                                        <b>Abstract </b>This work synthesizes the scene image conditioning on the single 3D model and the scene description. To address appearance fidelity and visual harmony in AI-generated images, Scene Diffusion introduces
+                                        SACA to enforce consistency between input conditions and output, and FPTS to moderate high-frequency signals in object regions for holistic coherence. In contrast to traditional 3D-based pipeline, this framework
+                                        eliminates the laborious scene construction step and offers enhanced adaptability in time-sensitive situations.
+                                        <p></p>
+                                        <br>
+                                        <div style="text-align: center;">
+                                            <img src="./projects/03_hx.JPG" width=70%>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <!-- 04 -->
+                                <tr>
+                                    <td style="padding:10px;width:100%;vertical-align:top;text-align:justify;">
+                                        <a href="https://arxiv.org/pdf/2410.08192">
+                                            <papertitle><b>HybridBooth: Hybrid Prompt Inversion for Efficient Subject-Driven Generation</b></papertitle>
+                                        </a>
+                                        <br>Shanyan Guan, Yanhao Ge, Yin Tan, Jian Yang, Wei Li,<b>Mingyu You*</b>
+                                        <br>
+                                        <em>ECCV</em>, 2024
+                                        <br>
+                                        <a href="https://arxiv.org/pdf/2410.08192">paper</a>
+                                        <br>
+                                        <br>
+                                        <b>Abstract</b> Text-to-image diffusion models excel at generating creative outputs from text prompts but struggle with subject-driven generation for personalized instances. We introduce HybridBooth, a hybrid framework
+                                        combining optimization-based and direct-regression approaches. It features two stages: a Word Embedding Probe using a fine-tuned encoder to create robust initial embeddings, and a Word Embedding Refinement stage
+                                        that adapts the encoder to subject images via parameter optimization. This enables efficient inversion of visual concepts into text embeddings from single images while preserving generalization.
+                                        <p></p>
+                                        <br>
+                                        <div style="text-align: center;">
+                                            <img src="./projects/04_gyh.JPG" width=70%>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <!-- 08 -->
+                                <tr>
+                                    <td style="padding:10px;width:100%;vertical-align:top;text-align:justify;">
+                                        <a href="https://ieeexplore.ieee.org/abstract/document/10296870">
+                                            <papertitle><b>Improving the Conditional Fine-grained Image Generation with Part Perception</b></papertitle>
+                                        </a>
+                                        <br>Xuan Han,<b>Mingyu You*</b>
+                                        <br>
+                                        <em>IEEE Transactions on Multimedia</em>, 2024
+                                        <br>
+                                        <a href="https://ieeexplore.ieee.org/abstract/document/10296870">paper</a> / <a href="videos/08_hx.mp4">video</a>
+                                        <br>
+                                        <br>
+                                        <b>Abstract</b> Fine-grained conditional image generation requires accurate local details. Existing methods relying on global features often fail to capture discriminative local semantics. We propose PartGAN, which
+                                        decomposes images into part-level embeddings and uses a conditional loss to enforce semantic consistency across all parts. This approach ensures stable local appearances while maintaining class-level coherence.
+                                        Experiments on benchmarks demonstrate significant improvements in fine-grained image generation quality.
+                                        <p></p>
+                                        <br>
+                                        <div style="text-align: center;">
+                                            <img src="./projects/08_hx.JPG" width=70%>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <!-- 11 -->
+                                <tr>
+                                    <td style="padding:10px;width:100%;vertical-align:top;text-align:justify;">
+                                        <a href="https://ieeexplore.ieee.org/abstract/document/10354761">
+                                            <papertitle><b>A Real-Time Assistance System with Virtual-Real Fusion for Similar Components Assembly</b></papertitle>
+                                        </a>
+                                        <br>Jinzhe Xue,Hongjun Zhou,<b>Mingyu You*</b>
+                                        <br>
+                                        <em>IEEE International Conference on Robotics & Biomimetics (ROBIO)</em>, 2023
+                                        <br>
+                                        <a href="https://ieeexplore.ieee.org/abstract/document/10354761">paper</a> / <a href="videos/11_xjz.mp4">video</a>
+                                        <br>
+                                        <br>
+                                        <b>Abstract</b> This paper presents a virtual-real fusion assembly system focusing on similar-component scenarios. Its innovations include global-local consistency constraints for object segmentation and accelerated
+                                        point cloud registration, enabling real-time applications in complex tasks like Burr puzzle assembly. The pose estimator achieves high accuracy and speed, and combined with NVIDIA Omniverse, shows potential in digital
+                                        twin applications.
+                                        <p></p>
+                                        <br>
+                                        <div style="text-align: center;">
+                                            <img src="./projects/11_xjz.jpg" width=70%>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <!-- 16 -->
+                                <tr>
+                                    <td style="padding:10px;width:100%;vertical-align:top;text-align:justify;">
+                                        <a href="https://kns.cnki.net/kcms2/article/abstract?v=RyE_S26iMhVBOgLWeT_VgWSycGlLlYisx7hi6d11D2GoRFesICNb2zcx7bWKLFyQEhoAESFBoh1QNQXkAVySnkKXJMixShtuurk8jIezJ79LvLfuSkzL6SJqtcN9YHrAO6N7Qymf6iBB7GSEQw2j6d7IbnivMKPvg6LIdTRaW8oi8SahzJ8MNAaet0mehABF&uniplatform=NZKPT&language=CHS">
+                                            <papertitle><b>基于稳定性优化的三维装配补全方法</b></papertitle>
+                                        </a>
+                                        <br>姚启皓,王伟昊,<b>尤鸣宇*</b>
+                                        <br>
+                                        <em>南京大学学报</em>, 2023
+                                        <br>
+                                        <a href="https://kns.cnki.net/kcms2/article/abstract?v=RyE_S26iMhVBOgLWeT_VgWSycGlLlYisx7hi6d11D2GoRFesICNb2zcx7bWKLFyQEhoAESFBoh1QNQXkAVySnkKXJMixShtuurk8jIezJ79LvLfuSkzL6SJqtcN9YHrAO6N7Qymf6iBB7GSEQw2j6d7IbnivMKPvg6LIdTRaW8oi8SahzJ8MNAaet0mehABF&uniplatform=NZKPT&language=CHS">paper</a>
+                                        <br>
+                                        <br>
+                                        <b>摘要</b> 三维装配补全需机器人识别缺失部件并优化位姿。现有方法忽略稳定性导致补全准确率低。我们提出 StableFiT，通过定义稳定性验证方法，基于 NVIDIA Isaac Sim 训练稳定性判别器，并结合稳定性反馈优化补全过程。PartNet 数据集实验表明，该方法显著提升补全装配体的正确性与稳定性。
+                                        <p></p>
+                                        <br>
+                                        <div style="text-align: center;">
+                                            <img src="./projects/16_yqh.jpg" width=70%>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <!-- 19 -->
+                                <tr>
+                                    <td style="padding:10px;width:100%;vertical-align:top;text-align:justify;">
+                                        <a href="https://ojs.aaai.org/index.php/AAAI/article/view/25365">
+                                            <papertitle><b>3D Assembly Completion</b></papertitle>
+                                        </a>
+                                        <br>Weihao Wang, Rufeng Zhang<b>Mingyu You*</b>, Hongjun Zhou, Bin He
+                                        <br>
+                                        <em>Proceedings of the Thirty-Seventh AAAI Conference on Artificial Intelligence</em>, 2023
+                                        <br>
+                                        <a href="https://ojs.aaai.org/index.php/AAAI/article/view/25365">paper</a>/ <a href="videos/19_wwh_1.mp4">vedio1</a>/ <a href="videos/19_wwh_2.mp4">vedio2</a>
+                                        <br>
+                                        <br>
+                                        <b>Abstract</b> This work introduces 3D assembly completion, a novel task enabling robots to complete partially assembled structures (e.g., half-built furniture) using parts from a toolkit. Key challenges include
+                                        identifying missing parts (prone to confusion due to geometrically similar candidates) and predicting their 6-DoF poses, whereas prior methods focus only on assembly from scratch. Solution: A Transformer-based framework
+                                        (FiT) is proposed, where an encoder models the incomplete assembly into memory, enabling candidate-memory interactions for part classification and pose prediction, refined via bipartite matching and symmetric transformation
+                                        consistency. Results: FiT outperforms baselines in part selection and pose accuracy, with designed standard toolkits (varying difficulty) supporting reliable evaluation and future research.
+                                        <p></p>
+                                        <br>
+                                        <div style="text-align: center;">
+                                            <img src="./projects/19_wwh.JPG" width=70%>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <!-- 22 -->
+                                <tr>
+                                    <td style="padding:10px;width:100%;vertical-align:top;text-align:justify;">
+                                        <a href="https://ieeexplore.ieee.org/abstract/document/9813581">
+                                            <papertitle><b>3D Part Assembly Generation with Instance Encoded Transformer</b></papertitle>
+                                        </a>
+                                        <br>Rufeng Zhang, Tao Kong, Weihao Wang, Xuan Han, <b>Mingyu You*</b>
+                                        <br>
+                                        <em>IEEE Robotics and Automation Letters</em>, 2022
+                                        <br>
+                                        <a href="https://ieeexplore.ieee.org/abstract/document/9813581">paper</a>
+                                        <br>
+                                        <br>
+                                        <b>Abstract</b> This work proposes a multi-layer transformer-based framework for 6-DoF part pose estimation in robotic furniture assembly, extending to in-process part assembly (resuming work on unfinished products).
+                                        Key challenges include resolving ambiguities among geometrically similar parts and adapting pose estimation to incomplete assemblies (analogous to furniture maintenance). Solution: The framework integrates geometric
+                                        and relational reasoning between parts for iterative pose refinement, along with a unique instance encoding to distinguish similar parts. Results: The method achieves >10% improvements over state-of-the-art baselines
+                                        across metrics on the PartNet dataset, demonstrating robust performance in both full and partial assembly scenarios.
+                                        <p></p>
+                                        <br>
+                                        <div style="text-align: center;">
+                                            <img src="./projects/22_wwh.JPG" width=70%>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </table>
+                            <p></p>
+
+                            <p style="text-align:justify">
+                                <font size="6px" id="visual-perception">Visual Perception:</font>
+                                <table id="pubList" border="0" cellpadding="0" width="100%" style="border-spacing: 10 18px; line-height:16pt; border: 0px;">
+                                    <!-- 06 -->
+                                    <tr>
+                                        <td style="padding:10px;width:100%;vertical-align:top;text-align:justify;">
+                                            <a href="https://ieeexplore.ieee.org/document/10568524">
+                                                <papertitle><b>Cross-factory Polarizer Sheet Surface Defect Inspection System Based on Multi-Teacher Knowledge Amalgamation</b></papertitle>
+                                            </a>
+                                            <br><b>Mingyu You</b>,Baiyu Ren; Hongjun Zhou*
+                                            <br>
+                                            <em>IEEE Transactions on Instrumentation & Measurement</em>, 2024
+                                            <br>
+                                            <a href="https://ieeexplore.ieee.org/document/10568524">paper</a> /<a href="https://github.com/Herrera21-a/MTKA">code</a> / <a href="videos/06_rby.mp4">video</a>
+                                            <br>
+                                            <br>
+                                            <b>Abstract</b> This paper presents an AOI system for polarizer sheet surface defect inspection, addressing challenges like image clarity, residue interference, and cross-factory data variations. To enhance
+                                            model generalizability, we propose a novel multi-teacher knowledge amalgamation approach with two selection strategies: Stu-MKA and Atn-MKA. These strategies guide knowledge fusion from diverse models, improving
+                                            performance despite limited annotated samples. Successfully deployed across multiple factories, our system boosts production capacity, reduces human errors, and has been well received by end users.
+                                            <p></p>
+                                            <br>
+                                            <div style="text-align: center;">
+                                                <img src="./projects/06_rby.JPG" width=70%>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <!-- 20 -->
+                                    <tr>
+                                        <td style="padding:10px;width:100%;vertical-align:top;text-align:justify;">
+                                            <a href="https://www.sciencedirect.com/science/article/abs/pii/S0031320322005039">
+                                                <papertitle><b>Dynamic Dense CRF Inference for Video Segmentation and Semantic SLAM</b></papertitle>
+                                            </a>
+                                            <br><b>Mingyu You*</b>Chaoxian Luo, Hongjun Zhou
+                                            <br>
+                                            <em>Pattern Recognition</em>, 2023
+                                            <br>
+                                            <a href="https://www.sciencedirect.com/science/article/abs/pii/S0031320322005039">paper</a>
+                                            <br>
+                                            <br>
+                                            <b>Abstract</b> We extend dense CRF to dynamic sensor data modeling, enabling incremental multi-class video segmentation and semantic SLAM. The algorithm efficiently computes MAP for changing CRF models with
+                                            computational cost proportional to Gaussian edge updates. Unlike traditional methods, it maintains constant inference time as sensor data grows, making it suitable for incremental applications. Experiments show
+                                            significant speed improvements with unchanged accuracy in video segmentation and SLAM integration. This generic approach enhances MAP optimization in dynamic models.
+                                            <p></p>
+                                            <br>
+                                            <div style="text-align: center;">
+                                                <img src="./projects/20.JPG" width=70%>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <!-- 23 -->
+                                    <tr>
+                                        <td style="padding:10px;width:100%;vertical-align:top;text-align:justify;">
+                                            <a href="https://www.sciencedirect.com/science/article/abs/pii/S0031320321006816">
+                                                <papertitle><b>Mask Encoding: A General Instance Mask Representation for Object Segmentation</b></papertitle>
+                                            </a>
+                                            <br>Rufeng Zhang, Tao Kong, Weihao Wang, Xuan Han, <b>Mingyu You*</b>
+                                            <br>
+                                            <em>Pattern Recognition</em>, 2022
+                                            <br>
+                                            <a href="https://www.sciencedirect.com/science/article/abs/pii/S0031320321006816">paper</a>/<a href="https://git.io/AdelaiDet">code</a>
+                                            <br>
+                                            <br>
+                                            <b>Abstract</b> In this work, we propose Mask Encoding, a general method that encodes the structured mask to a compact vector. Unlike previous works that typically solve mask prediction as binary classiﬁcation
+                                            in a spatial layout, our method steps forward to represent the mask in a more compact way that shares the advantages of highquality and low-complexity. We demonstrate its effectiveness with different model architectures
+                                            (two-stage and one-stage), on various datasets (COCO, cityscapes, etc .), in diverse tasks (instance segmentation and video segmentation), and achieve competitive performances.
+                                            <p></p>
+                                            <br>
+                                            <div style="text-align: center;">
+                                                <img src="./projects/23_wwh.JPG" width=70%>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <!-- 26 -->
+                                    <tr>
+                                        <td style="padding:10px;width:100%;vertical-align:top;text-align:justify;">
+                                            <a href="https://ieeexplore.ieee.org/abstract/document/9244142">
+                                                <papertitle><b>Part-Guided Attention Learning for Vehicle Instance Retrieval</b></papertitle>
+                                            </a>
+                                            <br>Xinyu Zhang, Rufeng Zhang, Jiewei Cao, Dong Gong,<b>Mingyu You*</b>,Chunhua Shen
+                                            <br>
+                                            <em>IEEE Transactions on Intelligent Transportation Systems</em>, 2022
+                                            <br>
+                                            <a href="https://ieeexplore.ieee.org/abstract/document/9244142">paper</a>/<a href="https://github.com/zhangxinyu-xyz/PGAN-VehicleRe-ID?v=1">code</a>
+                                            <br>
+                                            <br>
+                                            <b>Abstract</b> Vehicle instance retrieval (IR) demands recognizing fine - grained visual differences. As vehicle holistic appearance is affected by viewpoints and distortion, vehicle parts offer crucial cues.
+                                            We introduce a Part - Guided Attention Network (PGAN). PGAN first detects part and salient region locations, providing bottom - up attention to narrow search areas. A Part Attention Module (PAM) is proposed
+                                            to estimate part importance, adaptively locating discriminative regions with high weights and suppressing irrelevant parts. Guided by identification loss, PAM gives top - down attention at the part and salient
+                                            region level. Global and local features are then aggregated. PGAN combines bottom - up and top - down attention, as well as global and local features, in an end - to - end framework. Experiments show it reaches
+                                            new state - of - the - art vehicle IR performance on four large - scale benchmark datasets.
+                                            <p></p>
+                                            <br>
+                                            <div style="text-align: center;">
+                                                <img src="./projects/26.JPG" width=70%>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <!-- 27 -->
+                                    <tr>
+                                        <td style="padding:10px;width:100%;vertical-align:top;text-align:justify;">
+                                            <a href="https://ojs.aaai.org/index.php/AAAI/article/view/16454">
+                                                <papertitle><b>Diverse Knowledge Distillation for End-to-End Person Search</b></papertitle>
+                                            </a>
+                                            <br>Xinyu Zhang, Xinlong Wang, Jia-Wang Bian, Chunhua Shen,<b>Mingyu You*</b>
+                                            <br>
+                                            <em>AAAI</em>, 2021
+                                            <br>
+                                            <a href="https://ojs.aaai.org/index.php/AAAI/article/view/16454">paper</a>/<a href="https://git.io/DKD-PersonSearch">code</a>
+                                            <br>
+                                            <br>
+                                            <b>Abstract</b> In this paper, we identify that the Re-ID head is the main bottleneck in the end-to-end person search model. To this end, we propose a strong person search network to improve the Re-ID head with
+                                            an external Re-ID model. We provide guidance on both the output and input of the model. For the model output, we design a diverse knowledge distillation, consisting of probability-aware and relation-aware KD,
+                                            to let the Re-ID head mimic the well-trained Re-ID model. For the model input, we develop an image-level and feature-level spatial-invariant augmentations to make the Re-ID head insensitive to inaccurate detection
+                                            results. Only the end-to-end model is needed during inference so that there is no additional computation. Extensive experiments show the effectiveness of our methods.
+                                            <p></p>
+                                            <br>
+                                            <div style="text-align: center;">
+                                                <img src="./projects/27.JPG" width=70%>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <!-- 29 -->
+                                    <tr>
+                                        <td style="padding:10px;width:100%;vertical-align:top;text-align:justify;">
+                                            <a href="https://www.sciencedirect.com/science/article/abs/pii/S0925231220319354">
+                                                <papertitle><b>Visual Landmark Learning Via Attention-Based Deep Neural Networks</b></papertitle>
+                                            </a>
+                                            <br><b>Mingyu You*</b>Chaoxian Luo, Hongjun Zhou
+                                            <br>
+                                            <em>IEEE Transactions on Instrumentation and measurement</em>, 2021
+                                            <br>
+                                            <a href="https://www.sciencedirect.com/science/article/abs/pii/S0925231220319354">paper</a>/<a href="https://github.com/dotstudio01/landmark_learning.git.">code</a>
+                                            <br>
+                                            <br>
+                                            <b>Abstract</b> In this article, we proposed a method to build a landmark map using attention-based deep neural networks. We proposed LandmarkNet to extract regions that are important for camera pose estimation.
+                                            Using the estimated depth map and regions extracted by LandmarkNet, landmark maps were built using SfM methods. The results of experiments on the KITTI dataset and the Tongji University dataset, which we created,
+                                            show that our method can be used to build landmark maps that are computationally efﬁcient and easily interpretable. The effectiveness of the generated landmark maps was veriﬁed by performing localization tasks
+                                            on the KITTI and Tongji datasets.
+                                            <p></p>
+                                            <br>
+                                            <div style="text-align: center;">
+                                                <img src="./projects/29.JPG" width=70%>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <!-- 30 -->
+                                    <tr>
+                                        <td style="padding:10px;width:100%;vertical-align:top;text-align:justify;">
+                                            <a href="https://www.sciencedirect.com/science/article/abs/pii/S0925231220319354">
+                                                <papertitle><b>Systematic evaluation of deep face recognition methods</b></papertitle>
+                                            </a>
+                                            <br><b>Mingyu You*</b>Chaoxian Luo, Hongjun Zhou
+                                            <br>
+                                            <em>Neurocomputing</em>, 2020
+                                            <br>
+                                            <a href="https://www.sciencedirect.com/science/article/abs/pii/S0925231220319354">paper</a>/<a href="https://github.com/dotstudio01/landmark_learning.git.">code</a>
+                                            <br>
+                                            <br>
+                                            <b>Abstract</b> Compared with such high-precision and dense representation maps as the point cloud or occupancy grid maps, the landmark map has the advantages of compactness and memory efficiency, where these
+                                            advantages are particularly prominent in a large-scale environment for robot localization, navigation, or environment measurement. However, training a robot to identify and select useful landmarks for localization
+                                            is challenging. Due to this limitation, most landmarks are identified using handcrafted features. In this article, we propose a multitask neural network called LandmarkNet to build a flexible, optimal, and interpretable
+                                            landmark map. The multitask neural network with an attention mechanism is trained for the robot's pose regression and the semantic segmentation of images from a set of sequences of monocular images. The image
+                                            segmentation yields auxiliary semantic information for landmark selection based on some common-sense notions such as that the sky and clouds cannot be used as landmarks for robot localization. The attention
+                                            feature map thus learned is used to select landmarks for robot localization based on the optimal projection between the image sequence with the corresponding pose of the robot and the semantic segmentation of
+                                            the images. The learned landmark maps are also applied to mobile robot localization using traditional Monte Carlo localization (MCL). To verify the validity of our methods, we performed experiments on simulation,
+                                            an open dataset (KITTI monoVO), and a dataset that we had created on the campus of Tongji University. The results show that the learned landmark map, which was only 6% of the size of the original map, can be
+                                            used to accurately perform visual localization tasks. We open the source code on website https://github.com/dotstudio01/landmark_learning.git.
+                                            <p></p>
+                                            <br>
+                                            <div style="text-align: center;">
+                                                <img src="./projects/30.JPG" width=70%>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <!-- 31 -->
+                                    <tr>
+                                        <td style="padding:10px;width:100%;vertical-align:top;text-align:justify;">
+                                            <a href="https://openaccess.thecvf.com/content_CVPR_2020/html/Zhang_Mask_Encoding_for_Single_Shot_Instance_Segmentation_CVPR_2020_paper.html">
+                                                <papertitle><b>Mask Encoding for Single Shot Instance Segmentation</b></papertitle>
+                                            </a>
+                                            <br>Rufeng Zhang, Chunhua Shen<b>Mingyu You*</b>
+                                            <br>
+                                            <em>IEEE Conference on Computer Vision and Pattern Recognition (CVPR)</em>, 2020
+                                            <br>
+                                            <a href="https://openaccess.thecvf.com/content_CVPR_2020/html/Zhang_Mask_Encoding_for_Single_Shot_Instance_Segmentation_CVPR_2020_paper.html">paper</a>/<a href="git.io/AdelaiDet">code</a>
+                                            <br>
+                                            <br>
+                                            <b>Abstract</b>In this work, we have introduced a new, simple singleshot instance segmentation framework termed MEInst. Different from previous works that typically solve mask prediction as binary classiﬁcation
+                                            in a spatial layout, MEInst represents the mask with a ﬁxed-dimensional and compact vector, and casts the task into a regression task. The reformation allows the challenging task to be solved by appending a
+                                            parallel regression branch to existing one-stage object detectors. Experimental analyses demonstrate that the proposed framework achieves competitive accuracy and speed among one-stage paradigms.
+                                            <p></p>
+                                            <br>
+                                            <div style="text-align: center;">
+                                                <img src="./projects/31.JPG" width=70%>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <!-- 32 -->
+                                    <tr>
+                                        <td style="padding:10px;width:100%;vertical-align:top;text-align:justify;">
+                                            <a href="https://link.springer.com/article/10.1007/s11554-020-00980-1">
+                                                <papertitle><b>Fast contour detection with supervised attention learning</b></papertitle>
+                                            </a>
+                                            <br>Rufeng Zhang,<b>Mingyu You*</b>
+                                            <br>
+                                            <em>Journal of Real-Time Image Processing</em>, 2020
+                                            <br>
+                                            <a href="https://dl.acm.org/doi/abs/10.1145/3664647.3681678">paper</a>
+                                            <br>
+                                            <br>
+                                            <b>Abstract</b>Deep neural networks have advanced edge detection, but current detectors overlook pixel structural links, especially for contours. This study proposes a real - time Attention Edge Detection (AED)
+                                            framework inspired by human perception. AED uses an attention mask for edge pixel relations and a decoder module to preserve downsampling - lost details. With just 0.65M parameters, it meets real - time needs.
+                                            On the BSDS500 dataset, AED gets an F - score of 79.5 at 105 FPS, faster than similar - accuracy methods. A heavier AED model also achieves top results on BSDS500 and NYU Depth datasets.
+                                            <p></p>
+                                            <br>
+                                            <div style="text-align: center;">
+                                                <img src="./projects/32.JPG" width=70%>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <!-- 33 -->
+                                    <tr>
+                                        <td style="padding:10px;width:100%;vertical-align:top;text-align:justify;">
+                                            <a href="https://openaccess.thecvf.com/content_ICCV_2019/html/Zhang_Self-Training_With_Progressive_Augmentation_for_Unsupervised_Cross-Domain_Person_Re-Identification_ICCV_2019_paper.html">
+                                                <papertitle><b>Self-training with progressive augmentation for unsupervised cross-domain person re-identification</b></papertitle>
+                                            </a>
+                                            <br>Xinyu Zhang, Jiewei Cao, Chunhua Shen,<b>Mingyu You*</b>
+                                            <br>
+                                            <em>IEEE International Conference on Computer Vision (ICCV)</em>, 2019
+                                            <br>
+                                            <a href="https://openaccess.thecvf.com/content_ICCV_2019/html/Zhang_Self-Training_With_Progressive_Augmentation_for_Unsupervised_Cross-Domain_Person_Re-Identification_ICCV_2019_paper.html">paper</a>/<a href="tinyurl.com/PASTReID">code</a>
+                                            <br>
+                                            <br>
+                                            <b>Abstract</b> Person re - identification (Re - ID) has advanced with deep learning, yet adapting a model from a labelled source domain to an unlabelled target domain remains difficult. This work presents a
+                                            self - training method with a Progressive Augmentation framework (PAST). PAST has two stages: the conservative stage uses triplet - based loss to capture local structure, and the promoting stage optimizes the
+                                            network with a changeable classification layer. A new self - training strategy alternates these stages. Experiments show PAST achieves state - of - the - art performance in unsupervised cross - domain Re - ID,
+                                            and its code is available at tinyurl.com/PASTReID.
+                                            <p></p>
+                                            <br>
+                                            <div style="text-align: center;">
+                                                <img src="./projects/33.JPG" width=70%>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <!-- 35 -->
+                                    <tr>
+                                        <td style="padding:10px;width:100%;vertical-align:top;text-align:justify;">
+                                            <a href="https://ieeexplore.ieee.org/abstract/document/8310009">
+                                                <papertitle><b>An Extended Filtered Channel Framework for Pedestrian Detection</b></papertitle>
+                                            </a>
+                                            <br><b>Mingyu You*</b>,Yubin Zhang, Chunhua Shen, Xinyu Zhang
+                                            <br>
+                                            <em>IEEE Transactions on Intelligent Transportation Systems</em>, 2018
+                                            <br>
+                                            <a href="https://ieeexplore.ieee.org/abstract/document/8310009">paper</a>
+                                            <br>
+                                            <br>
+                                            <b>Abstract</b> Pedestrian detection is a key object detection task. Many studies highlight the importance of image features for high - accuracy detection, and some enhance low - level features like gradients
+                                            and colors with convolutional layers to get filtered channel features. This paper explores feature saturation by strengthening filtered channel features with more convolutional layers. Multilayer filters, acting
+                                            as convolution kernels, are applied to low - level features like HOG and CIE - LUV color features (HOG+LUV) to create the Extended Filtered Channel Framework (ExtFCF). ExtFCF shows competitive results on popular
+                                            benchmark datasets such as Caltech, INRIA, and KITTI. One ExtFCF implementation outperforms current top traditional methods on the Caltech dataset.
+                                            <p></p>
+                                            <br>
+                                            <div style="text-align: center;">
+                                                <img src="./projects/35.JPG" width=70%>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <!-- 36 -->
+                                    <tr>
+                                        <td style="padding:10px;width:100%;vertical-align:top;text-align:justify;">
+                                            <a href="https://www.sciencedirect.com/science/article/abs/pii/S0262885618300155">
+                                                <papertitle><b>Reading Car License Plates Using Deep Neural Networks</b></papertitle>
+                                            </a>
+                                            <br>Hui Li, Peng Wang,<b>Mingyu You*</b>Chunhua Shen
+                                            <br>
+                                            <em>Image and Vision Computing</em>, 2018
+                                            <br>
+                                            <a href="https://www.sciencedirect.com/science/article/abs/pii/S0262885618300155">paper</a>
+                                            <br>
+                                            <br>
+                                            <b>Abstract</b> In this work, we tackle the problem of car license plate detection and recognition in natural scene images based on the powerful deep neural networks (DNNs). Firstly, a 37-class convolutional
+                                            neural network (CNN) is trained to detect characters in an image, which leads to a high recall compared with a binary text/non-text classifier. False positives are then eliminated effectively by a plate/non-plate
+                                            CNN classifier. As to the license plate recognition, we regard the character string reading as a sequence labeling problem. Recurrent neural networks (RNNs) with long short-term memory (LSTM) are trained to
+                                            recognize the sequential features extracted from the whole license plate via CNNs. The main advantage of this approach is that it is segmentation free. By exploring contextual information and avoiding errors
+                                            caused by segmentation, this method performs better than conventional methods and achieves state-of-the-art recognition accuracy.
+                                            <p></p>
+                                            <br>
+                                            <div style="text-align: center;">
+                                                <img src="./projects/36.JPG" width=70%>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </table>
+                                <p></p>
+                                <p style="text-align:justify">
+                                    <font size="6px" id="model quantization and lightweight deployment based on FPGA platform">Model quantization and lightweight deployment based on FPGA platform:</font>
+                                    <table id="pubList" border="0" cellpadding="0" width="100%" style="border-spacing: 10 18px; line-height:16pt; border: 0px;">
+                                        <!-- 17 -->
+                                        <tr>
+                                            <td style="padding:10px;width:100%;vertical-align:top;text-align:justify;">
+                                                <a href="https://ieeexplore.ieee.org/abstract/document/10107717">
+                                                    <papertitle><b>MBFQuant: A Multiplier-Bitwidth-Fixed, Mixed Precision Quantization Method for Mobile CNN-Based Applications</b></papertitle>
+                                                </a>
+                                                <br>Peng Peng,<b>Mingyu You*</b>Kai Jiang, Youzao Lian, Weisheng Xu
+                                                <br>
+                                                <em>IEEE Transactions on Image Processing</em>, 2023
+                                                <br>
+                                                <a href="https://ieeexplore.ieee.org/abstract/document/10107717">paper</a>
+                                                <br>
+                                                <br>
+                                                <b>Abstract</b> Deploying CNNs on mobile devices faces challenges due to computational constraints. MBFQuant, a mixed-precision quantization pipeline, fixes multiplier bitwidth while keeping weight and activation
+                                                bitwidth sum constant. Using a simulated annealing optimizer, it optimizes bitwidth assignments. Experiments on 10 CNNs and 4 datasets show up to 19.34% classification and 1.12% detection accuracy gains
+                                                over uniform bitwidth quantized model.
+                                                <p></p>
+                                                <br>
+                                                <div style="text-align: center;">
+                                                    <img src="./projects/17_pp.JPG" width=70%>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <!-- 28 -->
+                                        <tr>
+                                            <td style="padding:10px;width:100%;vertical-align:top;text-align:justify;">
+                                                <a href="https://www.sciencedirect.com/science/article/abs/pii/S0925231220319354">
+                                                    <papertitle><b>Fully integer-based quantization for mobile convolutional neural network inference</b></papertitle>
+                                                </a>
+                                                <br>Peng Peng,<b>Mingyu You*</b>,Weisheng Xu, Jiaxin Li
+                                                <br>
+                                                <em>Neurocomputing</em>, 2021
+                                                <br>
+                                                <a href="https://www.sciencedirect.com/science/article/abs/pii/S0925231220319354">paper</a>/<a href="https://git.io/DKD-PersonSearch">code</a>
+                                                <br>
+                                                <br>
+                                                <b>Abstract</b> Deploying deep convolutional neural networks on mobile devices is challenging because of the conflict between high computational requirements and limited hardware capacity. Existing low-bitwidth
+                                                quantization methods have a “datatype mismatch” problem, which leads to instruction redundancy and reduces efficiency. We propose a new quantization approach that uses only integer-based arithmetic during
+                                                inference. Our method avoids the “datatype mismatch” issue and reduces run-time latency, while maintaining comparable accuracy to state-of-the-art methods. Experiments show that our fully integer-based quantized
+                                                Resnet-18 has a small accuracy drop on ImageNet and is much faster than the original version on an ARMv8 CPU.
+                                                <p></p>
+                                                <br>
+                                                <div style="text-align: center;">
+                                                    <img src="./projects/28.JPG" width=70%>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <p></p>
+                                    <p style="text-align:justify">
+                                        <font size="6px" id="others">Others:</font>
+                                        <table id="pubList" border="0" cellpadding="0" width="100%" style="border-spacing: 10 18px; line-height:16pt; border: 0px;">
+                                            <!-- 09 -->
+                                            <tr>
+                                                <td style="padding:10px;width:100%;vertical-align:top;text-align:justify;">
+                                                    <a href="https://dl.acm.org/doi/abs/10.1145/3607541.3616815">
+                                                        <papertitle><b>Semi-supervised Learning with Easy Labeled Data via Impartial Labeled Set Extension</b></papertitle>
+                                                    </a>
+                                                    <br>Xuan Han,<b>Mingyu You*</b>
+                                                    <br>
+                                                    <em>ACM MM workshop</em>, 2023
+                                                    <br>
+                                                    <a href="https://dl.acm.org/doi/abs/10.1145/3607541.3616815">paper</a> / <a href="videos/09_hx.mp4">video</a>
+                                                    <br>
+                                                    <br>
+                                                    <b>Abstract</b> In this paper, we analyze the problem of semi-supervised learning with easy labeled data for the ffrst time. To meet the challenge,we take full advantage of underlying sample distribution
+                                                    and propose a novel evolutionary framework – Solar Eclipse. The whole method revolves around the idea of impartial labeled set extension.In our method, an region-wise feature distance measurement and
+                                                    a dual-view feature base are introduced to ensure the reliability of extending sample screening. Experiments on the easy and i.i.d labeled data condition show the effectiveness of proposed framework.
+                                                    <p></p>
+                                                    <br>
+                                                    <div style="text-align: center;">
+                                                        <img src="./projects/09_hx.JPG" width=70%>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <!-- 18 -->
+                                            <tr>
+                                                <td style="padding:10px;width:100%;vertical-align:top;text-align:justify;">
+                                                    <a href="https://ieeexplore.ieee.org/document/10017136">
+                                                        <papertitle><b>Design of an Efficient CNN-based Cough Detection System on Lightweight FPGA</b></papertitle>
+                                                    </a>
+                                                    <br>Peng Peng, Kai Jiang, <b>Mingyu You*</b>, Hongjun Zhou, Weisheng Xu
+                                                    <br>
+                                                    <em>IEEE Transactions on Biomedical Circuits and Systems</em>, 2023
+                                                    <br>
+                                                    <a href="https://ieeexplore.ieee.org/document/10017136">paper</a>
+                                                    <br>
+                                                    <br>
+                                                    <b>Abstract</b> This paper proposes an efficient framework for cough sound detection at the edge side. We present a compact CNN architecture paired with a custom hardware accelerator. Through network
+                                                    design optimization, we identify an optimal model achieving higher accuracy with lower computational cost than previous works. The system is implemented on a lightweight FPGA, demonstrating a full prototype
+                                                    solution. The evaluation results reveal that this work reaches a very high performance in terms of power and operation efficiency.
+                                                    <p></p>
+                                                    <br>
+                                                    <div style="text-align: center;">
+                                                        <img src="./projects/18_pp.JPG" width=70%>
+                                                    </div>
+                                                </td>
+                                            </tr>
+
+                                            <!-- 25 -->
+                                            <tr>
+                                                <td style="padding:10px;width:100%;vertical-align:top;text-align:justify;">
+                                                    <a href="https://www.sciencedirect.com/science/article/pii/S1746809421009010">
+                                                        <papertitle><b>Automatic cough detection from realistic audio recordings using C-BiLSTM with boundary regression</b></papertitle>
+                                                    </a>
+                                                    <br><b>Mingyu You</b>Weihao Wang, You Li, Jiaming Liu, Xianghuai Xu, Zhongmin Qiu
+                                                    <br>
+                                                    <em>Biomedical Signal Processing and Control</em>, 2022
+                                                    <br>
+                                                    <a href="https://www.sciencedirect.com/science/article/pii/S1746809421009010">paper</a>
+                                                    <br>
+                                                    <br>
+                                                    <b>Abstract</b> This work develops a deep convolutional BiLSTM model with boundary regression for automatic cough detection in real-world patient audio recordings (e.g., COVID-19 monitoring). Key challenges
+                                                    include accurately segmenting cough events amidst background noise, preserving temporal coherence, and ensuring precise event boundaries for clinical relevance. Solution: A hybrid C-BiLSTM architecture
+                                                    integrates convolutional layers to enhance cough-specific features and temporal modeling, coupled with boundary regression on the final feature map to refine detection accuracy and event integrity. Results:
+                                                    The model achieves 84.13% sensitivity, 99.82% specificity, and 0.89 IoU on the open-source Corp Dataset (168h of labeled patient recordings), surpassing existing methods. The dataset and state-of-the-art
+                                                    system establish a benchmark for real-world cough detection research.
+                                                    <p></p>
+                                                    <br>
+                                                    <div style="text-align: center;">
+                                                        <img src="./projects/25_wwh.JPG" width=70%>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <!-- 38 -->
+                                            <tr>
+                                                <td style="padding:10px;width:100%;vertical-align:top;text-align:justify;">
+                                                    <a href="https://www.sciencedirect.com/science/article/abs/pii/S1746809416301835">
+                                                        <papertitle><b>Cough Detection by Ensembling Multiple Frequency Subband Features</b></papertitle>
+                                                    </a>
+                                                    <br><b>Mingyu You*</b>, Zeqin Liu, Chong Chen, Jiaming Liu, Xianghuai Xu, Zhongmin Qiu
+                                                    <br>
+                                                    <em>Biomedical Signal Processing and Control</em>, 2017
+                                                    <br>
+                                                    <a href="https://www.sciencedirect.com/science/article/abs/pii/S1746809416301835">paper</a>
+                                                    <br>
+                                                    <br>
+                                                    <b>Abstract</b> Cough, a common respiratory symptom, can be objectively evaluated by pattern recognition for cough diagnosis and monitoring. Cough detection, crucial for this, aims to identify cough
+                                                    events in audio. Previous cough - detection feature - extraction methods, mostly from speech recognition, overlook the distinct energy - distribution of coughs compared to speech. This study uses a gammatone
+                                                    filterbank to obtain subband features. Support Vector Machine (SVM), K - Nearest Neighbors (KNN), and Random Forest (RF) are trained with these features, and an ensemble method combines their outputs.
+                                                    Experiments on synthetic and real data (from 18 respiratory patients, expert - annotated) show that integrating multiple subbands boosts cough - detection performance. Our method improves accuracy by
+                                                    3.2% compared to others.
+                                                    <p></p>
+                                                    <br>
+                                                    <div style="text-align: center;">
+                                                        <img src="./projects/38.JPG" width=70%>
+                                                    </div>
+                                                </td>
+                                            </tr>
+
+                                            <!-- 39 -->
+                                            <tr>
+                                                <td style="padding:10px;width:100%;vertical-align:top;text-align:justify;">
+                                                    <a href="https://ietresearch.onlinelibrary.wiley.com/doi/full/10.1049/iet-spr.2016.0341">
+                                                        <papertitle><b>A Novel Feature Extraction Method for Cough Detection using Non-Negative Matrix Factorization</b></papertitle>
+                                                    </a>
+                                                    <br><b>Mingyu You*</b>, Huihui Wang, Chong Chen, Jiaming Liu, Xianghuai Xu, Zhongmin Qiu
+                                                    <br>
+                                                    <em>IET Signal Processing</em>, 2017
+                                                    <br>
+                                                    <a href="https://ietresearch.onlinelibrary.wiley.com/doi/full/10.1049/iet-spr.2016.0341">paper</a>
+                                                    <br>
+                                                    <br>
+                                                    <b>Abstract</b> Cough, a prevalent respiratory symptom, requires objective evaluation of its quantity and intensity via cough detection for diagnosis and monitoring. Cough detection extracts cough event
+                                                    boundaries from audio. Previous cough - detection feature - extraction methods, mainly from speech recognition, fail to account for the distinct, wide - spread energy spectrum of coughs compared to speech.
+                                                    This study uses non - negative matrix factorisation (NMF) to extract spectral structures from signals, revealing differences between coughs and other audios. The cough - derived spectral structures serve
+                                                    as more suitable filter banks for feature extraction than manual designs, and parameterising them optimises the NMF - based method. Experiments on real data show the NMF - based method holds great potential
+                                                    for enhancing cough - detection performance.
+                                                    <p></p>
+                                                    <br>
+                                                    <div style="text-align: center;">
+                                                        <img src="./projects/39.JPG" width="40%" height="auto">
+                                                    </div>
+                                                </td>
+                                            </tr>
+
+                                            <!-- 40 -->
+                                            <tr>
+                                                <td style="padding:10px;width:100%;vertical-align:top;text-align:justify;">
+                                                    <a href="https://ietresearch.onlinelibrary.wiley.com/doi/full/10.1049/iet-spr.2016.0341">
+                                                        <papertitle><b>ISMAC: An Intelligent System for Customized Clinical Case Management and Analysis</b></papertitle>
+                                                    </a>
+                                                    <br><b>Mingyu You*</b>, Chong Chen, Guozheng Li, Shixing Yan, Sheng Sun, Xueqiang Zeng, Qingce Zhao, Liaoyu Xu, Suying Huang
+                                                    <br>
+                                                    <em>The Scientific World Journal</em>, 2015
+                                                    <br>
+                                                    <a href="https://ietresearch.onlinelibrary.wiley.com/doi/full/10.1049/iet-spr.2016.0341">paper</a>
+                                                    <br>
+                                                    <br>
+                                                    <b>Abstract</b> Clinical cases are fundamental for Traditional Chinese Medicine (TCM) research, containing valuable knowledge from experienced practitioners. Given their unique clinical patterns and
+                                                    diagnosis ideas, archiving these cases and extracting knowledge is crucial yet challenging. The ISMAC (Intelligent System for Management and Analysis of Clinical Cases in TCM) system is developed. It
+                                                    constructs customized templates based on each TCM specialist's clinical features, including standard and expert - standard symptoms, diseases, syndromes, and Chinese Medicine Formulas (CMF). These templates
+                                                    help archive cases while maintaining their original traits. The system also incorporates various data analysis and mining methods like Basic Analysis, Association Rule, etc. With a flexible retrieval
+                                                    mechanism, ISMAC is a powerful tool for clinical case analysis and knowledge discovery in TCM.
+                                                    <p></p>
+                                                    <br>
+                                                    <div style="text-align: center;">
+                                                        <img src="./projects/40.jpg" width=70%>
+                                                    </div>
+                                                </td>
+                                            </tr>
+
+                                            <!-- 41 -->
+                                            <tr>
+                                                <td style="padding:10px;width:100%;vertical-align:top;text-align:justify;">
+                                                    <a href="https://link.springer.com/article/10.1186/1472-6947-15-S4-S2">
+                                                        <papertitle><b>Cough Event Classification by Pretrained Deep Neural Network</b></papertitle>
+                                                    </a>
+                                                    <br>Jia-Ming Liu,<b>Mingyu You*</b>, Zheng Wang, Guozheng Li, Xianghuai Xu, Zhongmin Qiu
+                                                    <br>
+                                                    <em>BMC Medical Informatics and Decision Making</em>, 2015
+                                                    <br>
+                                                    <a href="https://link.springer.com/article/10.1186/1472-6947-15-S4-S2">paper</a>
+                                                    <br>
+                                                    <br>
+                                                    <b>Abstract</b> Cough is a crucial symptom in respiratory diseases, and an accurate cough monitor is desired. This paper applies a pretrained deep neural network (DNN) to cough classification, a key
+                                                    step in cough monitoring. The DNN model is created through pretraining and fine - tuning, followed by a Hidden Markov Model (HMM) decoder for audio signal temporal information. Unsupervised pretraining
+                                                    of a deep belief network provides good DNN initialization. Fine - tuning uses backpropagation to predict HMM state observation probabilities, with HMM states from force - alignment with GMM - HMM on
+                                                    training samples. Three cough HMMs and one non - cough HMM model coughs and non - coughs. The final decision is based on Viterbi decoding. Results show that the HMM - DNN outperforms the conventional
+                                                    GMM - HMM framework in cough classification.
+                                                    <p></p>
+                                                    <br>
+                                                    <div style="text-align: center;">
+                                                        <img src="./projects/41.JPG" width=70%>
+                                                    </div>
+                                                </td>
+                                            </tr>
+
+                                            <!-- 42 -->
+                                            <tr>
+                                                <td style="padding:10px;width:100%;vertical-align:top;text-align:justify;">
+                                                    <a href="https://ieeexplore.ieee.org/abstract/document/7359724">
+                                                        <papertitle><b>Audio Signals Encoding for Cough Classification Using Convolutional Neural Networks: A Comparative Study</b></papertitle>
+                                                    </a>
+                                                    <br>Hui-Hui Wang, Jiaming Liu,<b>Mingyu You*</b>, Guozheng Li
+                                                    <br>
+                                                    <em>IEEE International Conference Bioinformatics and Biomedicine (BIBM)</em>, 2015
+                                                    <br>
+                                                    <a href="https://ieeexplore.ieee.org/abstract/document/7359724">paper</a>
+                                                    <br>
+                                                    <br>
+                                                    <b>Abstract</b> Cough detection has considerable clinical value, which can provide an objective basis for assessment and diagnosis of respiratory diseases. Motivated by the great achievements of convolutional
+                                                    neural networks (CNNs) in recent years, we adopted 5 different ways to encode audio signals as images and treated them as the input of CNNs, so that image processing technology could be applied to analyze
+                                                    audio signals. In order to explore the optimal audio signals encoding method, we performed comparative experiments on medical dataset containing 70000 audio segments from 26 patients. Experimental results
+                                                    show that RASTA-PLP spectrum is the best method to encode audio signals as images with respect to cough classification task, which gives an average accuracy of 0.9965 in 200 iterations on test batches
+                                                    and a F1-score of 0.9768 on samples re-sampled from the test set. Therefore, the image processing based method is shown to be a promising choice for the process of audio signals.
+                                                    <p></p>
+                                                    <br>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                        <p></p>
+                                        <table id="pubList" border="0" cellpadding="0" width="100%" style="border-spacing: 10 18px; line-height:16pt; border: 0px;">
+                                            <td style="padding:10px;width:75%;vertical-align:top;text-align:justify;">
+                                                <br>(1) 尤鸣宇;韩煊; 一种基于伪标签噪声过滤的小样本半监督学习方法和装置；2022-1-7，中国，ZL 2022 1 0015285.0
+                                                <br>(2) 钱智丰;尤鸣宇; 一种基于无监督图像编辑的多目标强化学习方法；2022-4-28，中国，ZL 2022 1 0469373.8
+                                                <br>(3) 尤鸣宇;韩煊; 一种基于无监督多模型融合的时序任务预测方法和装置；2022-1-21，中国，ZL 2022 1 0071568.7
+                                                <br>(4) 尤鸣宇;周虹旭;钱智丰;周洪钧; 基于第三视角可变主体演示视频的机械臂模仿学习方法, 2021-02-26, 中国, ZL 2021 1 0218017.4
+                                                <br>(5) 尤鸣宇;温佳豪;周洪钧; 基于多模态信息的机器人准确抓取方法及计算机可读介质, 2021-02-26, 中国, ZL 2021 1 0218016.X
+                                                <br>(6) 尤鸣宇;王伟昊;周洪钧; 一种基于选择性知识传递的双特长教师模型知识融合方法, 2021-02-26, 中国, ZL 2021 1 0218021.0
+                                                <br>(7) 尤鸣宇;钱智丰;周洪钧; 一种基于语言引导的机械臂动作模仿学习系统, 2021-02-26, 中国, ZL 2021 1 0217079.3
+                                                <br>(8) 尤鸣宇;苏志成;周洪钧; 一种基于动态模型强化学习算法的倒水服务机器人, 2021-02-26, 中国, ZL 2021 1 0217090.X
+                                                <br>(9) 尤鸣宇;徐炫辉;周洪钧; 一种基于模仿学习的服务机器人定量倒水算法, 2021-02-26, 中国, ZL 2021 1 0217089.7
+                                                <br>(10) 李由;尤鸣宇; 一种经过压缩的咳嗽自动检测方法及嵌入式设备, 2020-12-30, 中国, ZL 2020 1 1617737.X
+                                                <br>(11) 张佳伟;尤鸣宇; 一种使用残差注意力机制网络的同步定位与建图方法, 2019-11-28, 中国, ZL 2019 1 1190243.5
+                                                <br>(12) 尤鸣宇;沈春华;张欣彧; 基于triplet深度二值网络的快速人脸检索方法, 2018-01-11, 中国, ZL 2018 1 0026049.2
+                                                <br>(13) 尤鸣宇;沈春华;徐杨柳; 一种基于cnn和卷积LSTM网络的行人再识别方法, 2016-06-21, 中国, ZL 2016 1 0450898.1
+                                                <br>(14) 刘泽琴;尤鸣宇; 一种基于加速度计的咳嗽判别系统, 2015-06-09, 中国, ZL 2015 2 0393651.1
+                                            </td>
+                                        </table>
 </body>
+
 </html>
