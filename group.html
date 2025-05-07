@@ -47,6 +47,27 @@
             color: #666;
             margin-top: 10px;
         }
+	/* 仅修改存放已毕业学生信息的表格样式 */
+	table.student-table {
+		border-collapse: collapse;
+		width: 80%; /* 设置表格宽度为页面的80% */
+		margin: 0 auto; /* 让表格在页面中居中 */
+		box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* 添加阴影效果 */
+	}
+	table.student-table,
+	table.student-table th,
+	table.student-table td {
+		border: 1px solid #ccc;
+	}
+	table.student-table th,
+	table.student-table td {
+		padding: 12px;
+		text-align: center; /* 让表格内容居中对齐 */
+		background-color: #f9f9f9; /* 设置单元格背景色 */
+	}
+	table.student-table th {
+		background-color: #e0e0e0; /* 设置表头背景色 */
+	}
     </style>
 </head>
 
@@ -180,7 +201,7 @@
                         <div class="student-degree">2023级 硕士</div>
                         <div class="student-research">
                             <p>研究方向：图像辅助的三维装配</p>
-                            <p>邮箱：</p>
+                            <p>邮箱：2331841@tongji.edu.cn</p>
                         </div>
                     </li>
 					<li class="student-item">
@@ -271,10 +292,115 @@
 					    </div>
 					</li>
                 </ul>
-		<h2>Graduate student</h2>
-		<ul>
-
-		</ul>
+		<table class="student-table">
+		<thead>
+			<tr>
+				<th>姓名</th>
+				<th>学位</th>
+				<th>毕业时间</th>
+				<th>毕业去向</th>
+			</tr>
+		</thead>
+		<tbody>
+			<!-- 以下是示例数据，你可以根据实际情况修改 -->
+			<tr>
+				<td>钱智丰</td>
+				<td>博士</td>
+				<td>2024年9月</td>
+				<td>禾赛</td>
+			</tr>
+			<tr>
+				<td>徐炫辉</td>
+				<td>博士</td>
+				<td>2024年9月</td>
+				<td>上海航天控制技术研究所</td>
+			</tr>
+			<tr>
+				<td>李由</td>
+				<td>硕士</td>
+				<td></td>
+				<td>华为</td>
+			</tr>
+			<tr>
+				<td>张欢欢</td>
+				<td>硕士</td>
+				<td> </td>
+				<td>华为</td>
+			</tr>
+			<tr>
+				<td>张金鑫</td>
+				<td>硕士</td>
+				<td> </td>
+				<td>华为</td>
+			</tr>
+			<tr>
+				<td>薛金喆</td>
+				<td>硕士</td>
+				<td>2025年6月</td>
+				<td>华为</td>
+			</tr>
+			<tr>
+				<td>姚启皓</td>
+				<td>硕士</td>
+				<td>2025年6月</td>
+				<td>华为</td>
+			</tr>
+			<tr>
+				<td>任柏宇</td>
+				<td>硕士</td>
+				<td>2025年3月</td>
+				<td>思特威</td>
+			</tr>
+			<tr>
+				<td>陈毅</td>
+				<td>硕士</td>
+				<td></td>
+				<td>海康</td>
+			</tr>
+			<tr>
+				<td>满志鹏</td>
+				<td>硕士</td>
+				<td></td>
+				<td>海康</td>
+			</tr>
+			<tr>
+				<td>杜金航</td>
+				<td>硕士</td>
+				<td></td>
+				<td>海康</td>
+			</tr>
+			<tr>
+				<td>朱江</td>
+				<td>硕士</td>
+				<td></td>
+				<td>商汤</td>
+			</tr>
+			<tr>
+				<td>章如锋</td>
+				<td>硕士</td>
+				<td></td>
+				<td>百度</td>
+			</tr>
+			<tr>
+				<td>张欣彧</td>
+				<td>硕士</td>
+				<td></td>
+				<td>百度</td>
+			</tr>
+			<tr>
+				<td>徐杨柳</td>
+				<td>硕士</td>
+				<td></td>
+				<td>百度</td>
+			</tr>
+			<tr>
+				<td>王鑫龙</td>
+				<td>硕士</td>
+				<td></td>
+				<td>北京智源</td>
+			</tr>
+		</tbody>
+		</table>
 		    
             </td>
         </tr>
